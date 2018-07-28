@@ -107,7 +107,7 @@ bindsym $mod+minus scratchpad show
 set $workspace1 "1:"
 set $workspace2 "2:"
 set $workspace3 "3:{}"
-set $workspace4 "4://"
+set $workspace4 "4:?"
 set $workspace9 "9:"
 set $workspace10 "10:"
 
@@ -140,7 +140,6 @@ for_window [class="Spotify"] move to workspace $workspace10
 assign [class="Gnome-terminal"] $workspace2
 assign [class="Code"] $workspace3
 assign [class="Texmaker"] $workspace3
-assign [class="Nautilus"] $workspace4
 assign [class="Thunderbird"] $workspace9
 
 # reload the configuration file
@@ -246,3 +245,8 @@ exec gnome-terminal
 exec firefox
 exec thunderbird
 exec spotify
+
+for_window [class="^.*"] border pixel 0
+
+gaps inner 50
+gaps outer 50

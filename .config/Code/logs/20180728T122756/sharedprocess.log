@@ -1,0 +1,58 @@
+[2018-07-28 12:32:36.792] [sharedprocess] [info] main {"machineId":"01c552ce112d8d24bea9b074c17ea99fc39252ecf5d7c7ca9ae4f0ac82037e82"}
+[2018-07-28 12:32:36.831] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:32:36.868] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:32:37.074] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:32:37.075] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:32:37.107] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:32:37.705] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:33:16.797] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-07-28 12:37:37.907] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:42:37.913] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:47:37.921] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:52:37.929] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:56:57.967] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:56:57.972] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:56:57.977] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:56:57.989] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:56:58.041] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:56:58.042] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:56:58.048] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:01.692] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:57:01.693] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:57:01.693] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:57:01.747] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:01.748] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:01.750] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:09.233] [sharedprocess] [info] Installing extension: monokai-grs
+[2018-07-28 12:57:09.237] [sharedprocess] [info] Scanned user extensions: 1
+[2018-07-28 12:57:10.254] [sharedprocess] [info] Downloaded extension: monokai-grs
+[2018-07-28 12:57:10.299] [sharedprocess] [info] Extracted extension to /home/vrelda/.vscode/extensions/.goliafrs.monokai-grs-0.2.37: goliafrs.monokai-grs-0.2.37
+[2018-07-28 12:57:10.299] [sharedprocess] [info] Renamed to /home/vrelda/.vscode/extensions/goliafrs.monokai-grs-0.2.37
+[2018-07-28 12:57:10.299] [sharedprocess] [info] Installation completed. goliafrs.monokai-grs-0.2.37
+[2018-07-28 12:57:10.305] [sharedprocess] [info] Extensions installed successfully: goliafrs.monokai-grs
+[2018-07-28 12:57:10.440] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:10.477] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:21.877] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:21.881] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:21.882] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:21.889] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:21.890] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:21.937] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:21.940] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:21.942] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:22.159] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:22.176] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:57:25.457] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:49.462] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:57:49.496] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:58:00.791] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:58:00.792] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:58:00.792] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:58:00.802] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:58:00.803] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:58:00.814] [sharedprocess] [info] Scanned user extensions: 2
+[2018-07-28 12:58:00.854] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:58:00.856] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:58:00.857] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:58:00.860] [sharedprocess] [info] Scanned system extensions: 70
+[2018-07-28 12:58:03.913] [sharedprocess] [info] Scanned user extensions: 2
