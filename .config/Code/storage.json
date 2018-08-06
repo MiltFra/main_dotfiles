@@ -457,32 +457,64 @@
             "isNative": true
         }
     },
-    "theme": "vs-dark vscode-theme-monokai-themes-monokai-color-theme-json",
-    "themeBackground": "#272822",
+    "theme": "vs-dark zhuangtongfa-Material-theme-themes-OneDark-Pro-vivid-json",
+    "themeBackground": "#282c34",
     "windowsState": {
         "openedWindows": [],
         "lastActiveWindow": {
-            "backupPath": "/home/vrelda/.config/Code/Backups/1532732747212",
+            "backupPath": "/home/vrelda/.config/Code/Backups/1532902612158",
             "uiState": {
                 "mode": 1,
-                "x": 722,
-                "y": 14,
-                "width": 236,
-                "height": 1029
+                "x": 10,
+                "y": 32,
+                "width": 1900,
+                "height": 1038
             }
         }
     },
     "openedPathsList": {
         "workspaces": [
+            {
+                "id": "98b8e77bf46e200fd08f12942625a40b",
+                "configPath": "/media/vrelda/USB 0/!Projects/#Seminararbeit.code-workspace"
+            },
+            {
+                "id": "7304f1d325cb61974c63cc37db41a6dd",
+                "configPath": "/home/vrelda/ws-semi.code-workspace"
+            },
+            {
+                "id": "6ebd92b65495e5483d3dd8c3a5dcca8d",
+                "configPath": "/home/vrelda/.code-workspace"
+            },
+            "/media/vrelda/USB 0/!Projects/#Raw/#Seminararbeit",
+            "/home/vrelda",
             "/home/vrelda/.config",
-            "/home/vrelda"
+            "/home/vrelda/.config/polybar"
         ],
         "files": [
-            "/home/vrelda/.config/compton/config.conf",
             "/home/vrelda/.config/termite/config",
             "/home/vrelda/.config/i3/config",
+            "/home/vrelda/.config/polybar/config",
+            "/home/vrelda/.ws-semi",
+            "/home/vrelda/t",
+            "/home/vrelda/.config/fish/config.fish",
+            "/home/vrelda/.config/fish/config",
+            "/usr/share/rofi/themes/Monokai.rasi",
+            "/home/vrelda/.config/i3/clonfig",
+            "/home/vrelda/.config/i3blocks/volume",
+            "/home/vrelda/.config/i3blocks/config",
+            "/home/vrelda/.config/polybar/launch.sh",
+            "/home/vrelda/.config/polybar/config2",
+            "/usr/share/doc/.config/polybar/launch.sh",
+            "/home/vrelda/.config/i3blocks.conf",
+            "/home/vrelda/.config/i3blocks/my_blocklet",
+            "/home/vrelda/separator.sh",
+            "/usr/share/i3blocks/separator",
+            "/home/vrelda/separator",
+            "/home/vrelda/polybar/build/.config/polybar/launch.sh",
+            "/home/vrelda/.config/compton/config.conf",
             "/home/vrelda/termite/config"
         ]
     },
-    "pickerWorkingDir": "/home/vrelda"
+    "pickerWorkingDir": "/media/vrelda/USB 0/!Projects"
 }

@@ -8,31 +8,32 @@ set $wallpaper wallpaper3.png
 
 # VIM directions
 set $up l
-set $down k
+set $down
 set $left j
 set $right semicolon
 
 # Workspaces
-set $workspace1 "1:"
-set $workspace2 "2:"
-set $workspace3 "3:{}"
-set $workspace4 "4:?"
-set $workspace4 "5:?"
-set $workspace4 "6:?"
-set $workspace4 "7:?"
-set $workspace4 "8:?"
-set $workspace9 "9:"
-set $workspace10 "10:"
+set $workspace1 "1: web"
+set $workspace2 "2: shell"
+set $workspace3 "3: code"
+set $workspace4 "4: other"
+set $workspace5 "5: other"
+set $workspace6 "6: other"
+set $workspace7 "7: other"
+set $workspace8 "8: other"
+set $workspace9 "9: mail"
+set $workspace10 "10: music"
 
 # Modes
-set $modepower "power"
+set $modepower " exit"
 
 # COLORS
-set $bg-color            #111111bb
-set $inactive-bg-color	 #111111bb
-set $text-color		 #ffffffff
-set $inactive-text-color #bbbbbb66
-set $urgent-bg-color	 #E53935bb
+set $bg-color            #272822aa
+set $inactive-bg-color	 #272822aa
+set $text-color		 #f8f8f2
+set $inactive-text-color #75715e
+set $urgent-bg-color	 #f92672aa
+set $urgent-text-color   #f9f8f5
 set $white               #ffffffff
 set $transparent         #00000000
 
@@ -68,12 +69,12 @@ bindsym $mod+a                                  focus parent
 #bindsym $mod+Shift+b
 #bindsym $mod+c
 bindsym $mod+Shift+c                            reload
-bindsym $mod+d exec dmenu_run
-#bindsym $mod+Shift+d
+bindsym $mod+d                                  exec rofi -show run
+bindsym $mod+Shift+d                            exec code
 bindsym $mod+e                                  layout toggle split
-bindsym $mod+Shift+e                            exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e                            
 bindsym $mod+f                                  fullscreen toggle
-#bindsym $mod+Shift+f                                  
+bindsym $mod+Shift+f                            exec firefox                                  
 #bindsym $mod+g
 #bindsym $mod+Shift+g
 bindsym $mod+h                                  split h
@@ -88,12 +89,10 @@ bindsym $mod+o                                  resize grow height 10 px or 10 p
 bindsym $mod+Shift+o                            resize grow height 20 px or 20 ppt
 bindsym $mod+p                                  resize grow width 10 px or 10 ppt
 bindsym $mod+Shift+p                            resize grow width 20 px or 20 ppt
-#bindsym $mod+q
+bindsym $mod+q                                  kill
 #bindsym $mod+Shift+q
 #bindsym $mod+r
 bindsym $mod+Shift+r                            restart
-bindsym $mod+q                                  kill
-#bindsym $mod+Shift+q 
 bindsym $mod+s                                  layout stacking
 #bindsym $mod+Shift+s                                  
 #bindsym $mod+t
@@ -108,7 +107,7 @@ bindsym $mod+w                                  layout tabbed
 #bindsym $mod+Shift+x
 #bindsym $mod+y
 #bindsym $mod+Shift+y
-bindsym $mod+shift+z                            exec i3lock
+#bindsym $mod+z                                 
 #bindsym $mod+Shift+z
 
 
@@ -144,9 +143,9 @@ bindsym XF86AudioNext                           exec playerctl next
 bindsym XF86AudioPrev                           exec playerctl previous
 
 mode $modepower {
-        bindsym j mode "default",               exec --no-startup-id i3lock
-        bindsym k mode "default",               exec --no-startup-id logout
-        bindsym l mode "default",               exec --no-startup-id shutdown
+        bindsym j mode "default",               exec --no-startup-id lock
+        bindsym k mode "default",               exit
+        bindsym l mode "default",               exec --no-startup-id shutdown now
         bindsym semicolon mode "default",       exec --no-startup-id reboot
 
         bindsym Escape mode "default"
@@ -158,6 +157,8 @@ bindsym $mod+Shift+Tab workspace prev
 
 ### ASSIGNS
 
+default_border                                  none
+
 for_window [class="^.*"]                        move to workspace $workspace4
 for_window [class="Firefox"]                    move to workspace $workspace1
 for_window [class="Termite"]                    move to workspace $workspace2
@@ -165,33 +166,33 @@ for_window [class="Code"]                       move to workspace $workspace3
 for_window [class="Texmaker"]                   move to workspace $workspace3
 for_window [class="Thunderbird"]                move to workspace $workspace9
 for_window [class="Spotify"]                    move to workspace $workspace10    
-for_window [class="^.*"]                        border pixel 0
+#for_window [class="^.*"]                        border pixel 0
 ### BAR
 
-bar {
-#    verbose yes
-    status_command i3blocks
-    i3bar_command i3bar -t
-    position top
-    font pango:Hack, FontAwesome 11
-    strip_workspace_numbers yes
-    separator_symbol "■"
-    bindsym button4 nop
-    bindsym button5 nop
-    tray_output eDP1
-    tray_output LVDS-0
-    tray_padding 0
-    height 20
-    colors {
-        statusline         $white
-        background         $bg-color
-        separator          $bg-color
-
-        focused_workspace  $bg-color          $bg-color          $text-color
-        inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-	    urgent_workspace   $urgent-bg-color   $urgent-bg-color   $urgent-text-color
-    }
-}
+#bar {
+##    verbose yes
+#    status_command i3blocks -c ~/.config/i3blocks/config
+#    i3bar_command i3bar -t
+#    position top
+#    font pango:Hack, FontAwesome 12
+#    strip_workspace_numbers yes
+#    separator_symbol "■"
+#    bindsym button4 nop
+#    bindsym button5 nop
+#    tray_output eDP1
+#    tray_output LVDS-0
+#    tray_padding 0
+#    height 22
+#    colors {
+#        statusline         $white
+#        background         $bg-color
+#        separator          $bg-color
+#
+#        focused_workspace  $bg-color          $bg-color          $text-color
+#        inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+#	    urgent_workspace   $urgent-bg-color   $urgent-bg-color   $urgent-text-color
+#    }
+#}
 
 
 ### COLOR ASSIGNMENT
@@ -208,11 +209,11 @@ gaps outer 0
 floating_modifier $mod
 ### STARTUP
 
+#exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-scale ~/.config/wallpapers/$wallpaper
 exec_always compton
+exec polybar -r default
 exec $terminal
 exec $terminal
 exec code
-exec firefox
-exec thunderbird
-exec spotify
+exec firefox    

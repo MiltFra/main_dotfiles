@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo '<span foreground="#FF0000">g</span>'

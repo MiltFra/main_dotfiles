@@ -1,0 +1,14 @@
+[2018-08-06 02:10:48.500] [exthost6] [info] extension host started
+[2018-08-06 02:10:48.518] [exthost6] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-08-06 02:10:48.518] [exthost6] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-08-06 02:10:48.560] [exthost6] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-08-06 02:10:48.560] [exthost6] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-08-06 02:10:48.675] [exthost6] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-08-06 02:10:48.675] [exthost6] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-08-06 02:10:48.682] [exthost6] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-08-06 02:10:48.682] [exthost6] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-08-06 02:10:48.686] [exthost6] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"activationEvent":"*"}
+[2018-08-06 02:10:48.686] [exthost6] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2018-08-06 02:10:48.711] [exthost6] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-08-06 02:10:48.711] [exthost6] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/pkief.material-icon-theme-3.5.2/out/src/extension
+[2018-08-06 02:10:48.737] [exthost6] [info] eager extensions activated

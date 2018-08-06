@@ -12,51 +12,51 @@ font=Input Mono 14
 browser=Firefox
 
 [colors]
-# Base16 Monokai
-# Author: Wimer Hazenberg (http://www.monokai.nl)
+# Base16 OneDark
+# Author: Lalit Magant (http://github.com/tilal6991)
 
-foreground          = #f8f8f2
-foreground_bold     = #f5f4f1
-cursor              = #f5f4f1
-cursor_foreground   = #272822
-background          = rgba(40, 40, 40, 0.6)
+foreground          = #ddeeff
+foreground_bold     = #ddeeff
+cursor              = #ddeeff
+cursor_foreground   = #001122
+background          = rgba(40, 44, 52, 0.5)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #272822
-color8  = #75715e
-color7  = #f8f8f2
-color15 = #f9f8f5
+color0  = #282c34
+color8  = #545862
+color7  = #abb2bf
+color15 = #c8ccd4
 
 # Red
-color1  = #f92672
-color9  = #f92672
+color1  = #e06c75
+color9  = #e06c75
 
 # Green
-color2  = #a6e22e
-color10 = #a6e22e
+color2  = #98c379
+color10 = #98c379
 
 # Yellow
-color3  = #f4bf75
-color11 = #f4bf75
+color3  = #e5c07b
+color11 = #e5c07b
 
 # Blue
-color4  = #66d9ef
-color12 = #66d9ef
+color4  = #61afef
+color12 = #61afef
 
 # Purple
-color5  = #ae81ff
-color13 = #ae81ff
+color5  = #c678dd
+color13 = #c678dd
 
 # Teal
-color6  = #a1efe4
-color14 = #a1efe4
+color6  = #56b6c2
+color14 = #56b6c2
 
 # Extra colors
-color16 = #fd971f
-color17 = #cc6633
-color18 = #383830
-color19 = #49483e
-color20 = #a59f85
-color21 = #f5f4f1
+color16 = #d19a66
+color17 = #be5046
+color18 = #353b45
+color19 = #3e4451
+color20 = #565c64
+color21 = #b6bdca

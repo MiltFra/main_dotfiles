@@ -1,0 +1,22 @@
+[2018-08-06 11:59:28.155] [sharedprocess] [info] main {"machineId":"01c552ce112d8d24bea9b074c17ea99fc39252ecf5d7c7ca9ae4f0ac82037e82"}
+[2018-08-06 11:59:28.204] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 11:59:28.279] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 11:59:28.283] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 11:59:28.285] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 11:59:28.325] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-06 11:59:28.330] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-06 11:59:28.332] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-06 11:59:29.285] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 11:59:30.881] [sharedprocess] [info] Installing extension: code-blue
+[2018-08-06 11:59:30.889] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 11:59:32.634] [sharedprocess] [info] Downloaded extension: code-blue
+[2018-08-06 11:59:32.658] [sharedprocess] [info] Extracted extension to /home/vrelda/.vscode/extensions/.sujan.code-blue-0.9.6: sujan.code-blue-0.9.6
+[2018-08-06 11:59:32.658] [sharedprocess] [info] Renamed to /home/vrelda/.vscode/extensions/sujan.code-blue-0.9.6
+[2018-08-06 11:59:32.658] [sharedprocess] [info] Installation completed. sujan.code-blue-0.9.6
+[2018-08-06 11:59:32.661] [sharedprocess] [info] Extensions installed successfully: sujan.code-blue
+[2018-08-06 11:59:33.233] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 11:59:33.263] [sharedprocess] [info] Scanned system extensions: 70
+[2018-08-06 12:00:08.748] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-08-06 12:04:29.903] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 12:09:29.923] [sharedprocess] [info] Scanned user extensions: 9
+[2018-08-06 12:14:29.958] [sharedprocess] [info] Scanned user extensions: 9
