@@ -46,7 +46,7 @@ font-3 = Font Awesome 5 Brands:pixelsize=10;3
 font-4 = M+:pixelsize=13;3
 font-5 = Input Mono:size=19;6
 
-modules-left = i3 rectangle separator-left
+modules-left = i3 separator-left
 modules-center = xwindow 
 modules-right = separator-right xkeyboard date 
 
@@ -114,12 +114,11 @@ fuzzy-match = true
 
 ws-icon-0=1:web;
 ws-icon-1=2:terminal;
-ws-icon-2=3:code;
-ws-icon-3=4:tools;
+ws-icon-2=3:tools;
+ws-icon-3=4:code;
 ws-icon-default=
 
-
-format-focused = <label-focused><label-mode>
+format-focused = <label-focused>
 label-focused = %icon%
 label-focused-padding = 2
 label-focused-margin = 0
@@ -128,7 +127,7 @@ label-focused-background = ${colors.color2}
 #label-focused-underline = ${colors.color1}
 #label-focused-overline = ${colors.color1}
 
-
+format-unfocused = <label-unfocused>
 label-unfocused = %icon%
 label-unfocused-padding = 2
 label-unfocused-margin = 0
@@ -139,14 +138,15 @@ label-mode-padding = 2
 label-mode-margin = 0
 label-mode-background = ${colors.color6}
 label-mode-foreground = ${colors.color1}
-label-mode = 
 
+format-urgent = <label-urgent>
 label-urgent = %icon%
 label-urgent-padding = 2
 label-urgent-margin = 0
 label-urgent-foreground = ${colors.color2}
 label-urgent-background = ${colors.color4}
 
+format-visible = <label-visible>
 label-visible = %icon%
 label-visible-padding = 2
 label-visible-margin = 0
@@ -154,8 +154,6 @@ label-visible-foreground = ${colors.color2}
 label-visible-background = ${colors.color8}
 #label-visible-underline = ${colors.color1}
 #label-visible-overline = ${colors.color1}
-
-
 [module/mpd]
 type = internal/mpd
 format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
