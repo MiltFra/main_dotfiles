@@ -146,7 +146,7 @@ bindsym XF86AudioNext                           exec playerctl next
 bindsym XF86AudioPrev                           exec playerctl previous
  
 mode $modepower {
-        bindsym j mode "default",               exec --no-startup-id lock
+        bindsym j mode "default",               exec --no-startup-id betterlockscreen -l dimblur 
         bindsym k mode "default",               exit
         bindsym l mode "default",               exec --no-startup-id shutdown now
         bindsym semicolon mode "default",       exec --no-startup-id reboot
@@ -216,3 +216,5 @@ exec thunderbird
 exec spotify
 
 exec polybar -r default
+exec_always xmodmap -e "clear lock" #disable caps lock switch
+exec_always xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
