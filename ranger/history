@@ -1,0 +1,39 @@
+a
+search sm2
+search apt
+search env
+01
+sm2
+reload
+search wallpapers
+cd ~
+open_with
+rename Wallpaperss
+rename Wallpapers
+open_with 16
+cd ~/projects/Seminararbeit
+shell cd %s
+shell rm %s
+cp %s ~ 
+copy --help
+
+cd /media
+shell 
+delete
+shell -p 
+mkdir test
+open_with 
+mkdir
+mkdir  test
+mkdir  ranger
+copy
+paste
+rename !markov_calc
+rename 
+rename smcalc
+rename S-1-5-21-3106598571-2784727144-2345157246-1001g
+cd 
+mkdir  colorschemes
+shell code %s
+te
+extracthere
