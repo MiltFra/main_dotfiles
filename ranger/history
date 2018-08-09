@@ -1,4 +1,3 @@
-a
 search sm2
 search apt
 search env
@@ -16,20 +15,15 @@ shell cd %s
 shell rm %s
 cp %s ~ 
 copy --help
-
 cd /media
 shell 
 delete
 shell -p 
 mkdir test
-open_with 
 mkdir
 mkdir  test
 mkdir  ranger
-copy
-paste
 rename !markov_calc
-rename 
 rename smcalc
 rename S-1-5-21-3106598571-2784727144-2345157246-1001g
 cd 
@@ -37,3 +31,20 @@ mkdir  colorschemes
 shell code %s
 te
 extracthere
+shell
+copy
+remove
+cute
+cut
+paste
+rename rc.conf
+shell a
+
+open_with 
+mkdir  wallpapers
+rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163.png
+rename 
+rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163r.png
+rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163.jpg
+copyu 
+shell cp %s bg.jpg

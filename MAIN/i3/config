@@ -3,7 +3,7 @@ font pango:Input Mono 11
 # Mod Key
 set $mod Mod4
 set $terminal termite -e fish
-set $wallpaper wallpaper3.png
+set $wallpaper bg.jpg
 
 # VIM directions
 set $up l
