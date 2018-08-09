@@ -216,5 +216,5 @@ exec thunderbird
 exec spotify
 
 exec polybar -r default
-exec_always xmodmap -e "clear lock" #disable caps lock switch
-exec_always xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
+exec xmodmap -e "clear lock" #disable caps lock switch
+exec xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
