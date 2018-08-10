@@ -1,5 +1,3 @@
-search sm2
-search apt
 search env
 01
 sm2
@@ -48,3 +46,5 @@ rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163r.pn
 rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163.jpg
 copyu 
 shell cp %s bg.jpg
+search 
+rename Old Firefox Data
