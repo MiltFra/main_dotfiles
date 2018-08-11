@@ -10,54 +10,52 @@ search_wrap=true
 visible_bell=false
 font=Input Mono 11
 browser=Firefox
-
-
 [colors]
-# Base16 Pop
-# Author: Chris Kempson (http://chriskempson.com)
+# Base16 Monokai
+# Author: Wimer Hazenberg (http://www.monokai.nl)
 
-foreground          = #d0d0d0
-foreground_bold     = #e0e0e0
-cursor              = #e0e0e0
-cursor_foreground   = #000000
-background          = rgba(20, 20, 20, 0.7)
+foreground          = #f8f8f2
+foreground_bold     = #f5f4f1
+cursor              = #f5f4f1
+cursor_foreground   = #272822
+background          = rgba(42, 50, 75, 0.8)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #000000
-color8  = #505050
-color7  = #d0d0d0
-color15 = #ffffff
+color0  = #242b40
+color8  = #6183b1
+color7  = #f8f8f2
+color15 = #f9f8f5
 
 # Red
-color1  = #eb008a
-color9  = #eb008a
+color1  = #d65869
+color9  = #d65869
 
 # Green
-color2  = #37b349
-color10 = #37b349
+color2  = #13bb58
+color10 = #13bb58
 
 # Yellow
-color3  = #f8ca12
-color11 = #f8ca12
+color3  = #eba761
+color11 = #eba761
 
 # Blue
-color4  = #0e5a94
-color12 = #0e5a94
+color4  = #378ced
+color12 = #378ced
 
 # Purple
-color5  = #b31e8d
-color13 = #b31e8d
+color5  = #d37d79
+color13 = #d37d79
 
 # Teal
-color6  = #00aabb
-color14 = #00aabb
+color6  = #63d6ad
+color14 = #63d6ad
 
 # Extra colors
-color16 = #f29333
-color17 = #7a2d00
-color18 = #202020
-color19 = #303030
-color20 = #b0b0b0
-color21 = #e0e0e0
+color16 = #fd971f
+color17 = #d8985f
+color18 = #383830
+color19 = #49483e
+color20 = #a59f85
+color21 = #f5f4f1
