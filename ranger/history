@@ -1,50 +1,8 @@
-search env
-01
-sm2
-reload
-search wallpapers
-cd ~
-open_with
-rename Wallpaperss
-rename Wallpapers
-open_with 16
-cd ~/projects/Seminararbeit
-shell cd %s
-shell rm %s
-cp %s ~ 
-copy --help
-cd /media
-shell 
-delete
-shell -p 
-mkdir test
-mkdir
-mkdir  test
-mkdir  ranger
-rename !markov_calc
-rename smcalc
-rename S-1-5-21-3106598571-2784727144-2345157246-1001g
-cd 
-mkdir  colorschemes
-shell code %s
-te
-extracthere
-shell
-copy
 remove
-cute
-cut
-paste
-rename rc.conf
-shell a
-
+sudo rm 
+reload
+cd 
 open_with 
-mkdir  wallpapers
-rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163.png
-rename 
-rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163r.png
-rename scarlett-johansson-2880x1800-most-popular-celebs-in-2015-actress-3163.jpg
-copyu 
-shell cp %s bg.jpg
-search 
-rename Old Firefox Data
+delete
+
+shell mkdir .source
