@@ -6,10 +6,15 @@ set $terminal termite -e fish
 set $wallpaper bg.jpg
 
 # VIM directions
-set $up l
-set $down k
-set $left j
-set $right semicolon
+set $up k
+set $down j
+set $left h
+set $right l
+
+set $upp i
+set $downn u
+set $leftt y
+set $rightt o
 
 #MONITORS
 set $rmonitor HDMI-0
@@ -29,16 +34,6 @@ set $workspace10 "10:other"
 
 # Modes
 set $modepower ""
-
-# COLORS
-set $bg-color            #272822aa
-set $inactive-bg-color	 #272822aa
-set $text-color		 #f8f8f2
-set $inactive-text-color #75715e
-set $urgent-bg-color	 #f92672aa
-set $urgent-text-color   #f9f8f5
-set $white               #ffffffff
-set $transparent         #00000000
 
 ## KEYBINDINGS
 
@@ -80,18 +75,12 @@ bindsym $mod+f                                  fullscreen toggle
 bindsym $mod+Shift+f                            exec firefox                                  
 #bindsym $mod+g
 #bindsym $mod+Shift+g
-bindsym $mod+h                                  split h
+#bindsym $mod+h
 #bindsym $mod+Shift+h                                  
-bindsym $mod+i                                  resize shrink height 10 px or 10 ppt
-bindsym $mod+Shift+i                            resize shrink height 20 px or 20 ppt
-#bindsym $mod+m                                  
+bindsym $mod+m                                  split h 
 #bindsym $mod+Shift+m
-#bindsym $mod+n
+bindsym $mod+n                                  split v
 #bindsym $mod+Shift+n
-bindsym $mod+o                                  resize grow height 10 px or 10 ppt
-bindsym $mod+Shift+o                            resize grow height 20 px or 20 ppt
-bindsym $mod+p                                  resize grow width 10 px or 10 ppt
-bindsym $mod+Shift+p                            resize grow width 20 px or 20 ppt
 bindsym $mod+q                                  kill
 #bindsym $mod+Shift+q
 #bindsym $mod+r
@@ -100,9 +89,6 @@ bindsym $mod+s                                  layout stacking
 bindsym $mod+Shift+s                            exec gnome-screenshot
 #bindsym $mod+t
 #bindsym $mod+Shift+t
-bindsym $mod+u                                  resize shrink width 10 px or 10 ppt
-bindsym $mod+Shift+u                            resize shrink width 20 px or 20 ppt
-bindsym $mod+v                                  split v
 #bindsym $mod+Shift+v                                  
 bindsym $mod+w                                  layout tabbed
 #bindsym $mod+Shift+w                                  
@@ -126,6 +112,15 @@ bindsym $mod+Shift+$up                          move up
 bindsym $mod+$right                             focus right
 bindsym $mod+Shift+$right                       move right
 
+bindsym $mod+$leftt                             resize shrink width 10 px
+bindsym $mod+Shift+$leftt                       resize shrink width 20 px
+bindsym $mod+$rightt                            resize grow width 10 px
+bindsym $mod+Shift+$rightt                      resize grow width 20 px
+bindsym $mod+$upp                               resize grow height 10 px
+bindsym $mod+Shift+$upp                         resize grow height 20 px
+bindsym $mod+$downn                             resize shrink height 10 px
+bindsym $mod+Shift+$downn                       resize shrink height 20 px
+
 bindsym $mod+space                              focus mode_toggle
 bindsym $mod+Shift+space                        floating toggle
 bindsym $mod+minus                              scratchpad show
@@ -144,7 +139,10 @@ bindsym XF86AudioPlay                           exec playerctl play
 bindsym XF86AudioPause                          exec playerctl pause
 bindsym XF86AudioNext                           exec playerctl next
 bindsym XF86AudioPrev                           exec playerctl previous
- 
+
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
 mode $modepower {
         bindsym j mode "default",               exec --no-startup-id betterlockscreen -l dimblur 
         bindsym k mode "default",               exit
@@ -155,16 +153,7 @@ mode $modepower {
         bindsym Return mode "default"
 }
 
-#mode vim {	
-	#bindsym $mod+1 workspace 2:web; layout tabbed; exec [ $(ps h -C vimb | wc -l) = 0 ] && /usr/bin/vimb -s
-	#mode "default"
-#}
-
-bindsym $mod+Tab workspace next
-bindsym $mod+Shift+Tab workspace prev
-
 ### ASSIGNS
-
 workspace $workspace1 output $lmonitor
 workspace $workspace2 output $lmonitor
 workspace $workspace3 output $lmonitor
@@ -179,7 +168,6 @@ workspace $workspace10 output $rmonitor
 default_border                                  none
 
 for_window [class="Firefox"]                    move to workspace $workspace1
-#for_window [class="Termite"]                    move to workspace $workspace2
 assign [class="Code"]                           workspace $workspace4
 assign [class="Texmaker"]                       workspace $workspace4
 assign [class="Thunderbird"]                workspace $workspace3
@@ -188,24 +176,16 @@ assign [class="^.*"]                            workspace $workspace5
 for_window [class="^.*"]                        border pixel 0
 focus_follows_mouse no
 
-### COLOR ASSIGNMENT
-
-client.focused          $bg-color          $bg-color          $text-color          #00ff00
-client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.urgent           $urgent-bg-color   $urgent-bg-color  $urgent-text-color   #00ff00
-
-### GAPS
-
+### GAPS ###
 gaps inner 15
 gaps outer 0
 floating_modifier $mod
-### STARTUP
+
+### STARTUP ###
 exec_always "setxkbmap -layout us,de"
 exec_always "setxkbmap -option 'grp:win_space_toggle'"
 exec_always ~/.config/screenlayout.sh
 
-#exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always feh --bg-fill ~/.config/wallpapers/$wallpaper
 exec_always compton 
 exec code
@@ -214,7 +194,5 @@ exec thunderbird
 exec spotify
 
 exec polybar -r default
-exec xmodmap -e "clear lock" #disable caps lock switch
-exec xmodmap -e "keysym Caps_Lock = Escape" #set caps_lock as escape
 
 exec --no-startup-id bash ~/.config/i3/ws2.sh
