@@ -23,8 +23,8 @@ set $lmonitor DVI-0
 # Workspaces
 set $workspace1 "1:web"
 set $workspace2 "2:shell"
-set $workspace3 "3:tools"
-set $workspace4 "4:code"
+set $workspace3 "3:code"
+set $workspace4 "4:tools"
 set $workspace6 "6:other"
 set $workspace5 "5:other"
 set $workspace7 "7:other"
@@ -61,7 +61,7 @@ bindsym $mod+Shift+0                            move container to workspace $wor
         
 
 # Letters
-bindsym $mod+a                                  focus parent
+bindsym $mod+a                                  move workspace to output left
 #bindsym $mod+Shift+a
 #bindsym $mod+b
 #bindsym $mod+Shift+b
@@ -85,7 +85,7 @@ bindsym $mod+q                                  kill
 #bindsym $mod+Shift+q
 #bindsym $mod+r
 bindsym $mod+Shift+r                            restart
-bindsym $mod+s                                  layout stacking
+bindsym $mod+s                                  move workspace to output right
 bindsym $mod+Shift+s                            exec gnome-screenshot
 #bindsym $mod+t
 #bindsym $mod+Shift+t
@@ -152,22 +152,39 @@ mode $modepower {
         bindsym Escape mode "default"
         bindsym Return mode "default"
 }
+default_border pixel 0
+hide_edge_borders none
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color1 #f0f0f0
+set_from_resource $b2 i3wm.color0
+
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $b2     $b2     $fg  $bg       $b2
+client.unfocused        $b2     $b2     $fg  $bg       $b2
+client.urgent           $b2     $b2     $fg  $bg       $b2
+client.placeholder      $b2     $b2     $fg  $bg       $b2
+
+client.background       $b2
+
+### GAPS ###
+gaps inner 0
+gaps outer 0
+floating_modifier $mod
 
 ### WORKSPACE SETTINGS ###
-default_border                                  none
 
 for_window [class="Firefox"]                    move to workspace $workspace1
-assign [class="Code"]                           workspace $workspace4
-assign [class="Texmaker"]                       workspace $workspace4
-assign [class="Thunderbird"]                    workspace $workspace3
-for_window [class="Spotify"]                    move to workspace $workspace3    
+assign [class="Code"]                           workspace $workspace3
+assign [class="Thunderbird"]                    workspace $workspace4
+for_window [class="Spotify"]                    move to workspace $workspace4    
 assign [class="^.*"]                            workspace $workspace5
-for_window [class="^.*"]                        border pixel 0
+for_window [class="Termite"]                    border pixel 2
 focus_follows_mouse no
 ### ASSIGNS
 workspace $workspace1 output $lmonitor
 workspace $workspace2 output $lmonitor
-workspace $workspace3 output $lmonitor
+workspace $workspace3 output $rmonitor
 workspace $workspace4 output $rmonitor
 workspace $workspace5 output $rmonitor
 workspace $workspace6 output $rmonitor
@@ -175,11 +192,6 @@ workspace $workspace7 output $rmonitor
 workspace $workspace8 output $rmonitor
 workspace $workspace9 output $rmonitor
 workspace $workspace10 output $rmonitor
-### GAPS ###
-gaps inner 15
-gaps outer 0
-floating_modifier $mod
-
 
 ### STARTUP ###
 exec_always bash ~/.config/i3/always.sh
