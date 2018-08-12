@@ -156,11 +156,11 @@ mode $modepower {
 ### WORKSPACE SETTINGS ###
 default_border                                  none
 
-for_window [class="Firefox"]                    move to workspace $workspace1
+assign [class="Firefox"]                    workspace $workspace1
 assign [class="Code"]                           workspace $workspace4
 assign [class="Texmaker"]                       workspace $workspace4
 assign [class="Thunderbird"]                    workspace $workspace3
-assign [class="Spotify"]                        workspace $workspace3    
+for_window [class="Spotify"]                    move to workspace $workspace3    
 assign [class="^.*"]                            workspace $workspace5
 for_window [class="^.*"]                        border pixel 0
 focus_follows_mouse no
@@ -169,17 +169,6 @@ focus_follows_mouse no
 gaps inner 15
 gaps outer 0
 floating_modifier $mod
-
-### STARTUP ###
-exec_always feh --bg-fill ~/dotfiles/wallpapers/$wallpaper
-exec_always compton 
-exec code-oss
-exec firefox 
-exec thunderbird
-exec spotify
-
-exec polybar -r default
-
 
 ### STARTUP ###
 exec_always bash ~/.config/i3/always.sh
