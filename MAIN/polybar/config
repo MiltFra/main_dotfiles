@@ -1,11 +1,11 @@
 [colors]
 color0 = #000000
-color1 = #282c34
-color2 = #c8ccd4
-color3 = #1E2127
-color4 = #e06c75
-color5 = #98c379
-color6 = #e5c07b
+color1 = #242b40
+color2 = #f8f8f2
+color3 = #cc2a324b 
+color4 = #d65869
+color5 = #13bb58
+color6 = #eba761
 color7 = #353b45
 color8 = #545862
 
@@ -18,7 +18,7 @@ radius = 0
 fixed-center = true
 bottom = false
 margin = 5
-monitor = HDMI-0
+monitor = DVI-0
 #offset-y = 5%
 
 background = ${colors.color3}

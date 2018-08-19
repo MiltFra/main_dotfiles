@@ -165,13 +165,12 @@ workspace $workspace8 output $rmonitor
 workspace $workspace9 output $rmonitor
 workspace $workspace10 output $rmonitor
 
-default_border                                  none
 
-for_window [class="Firefox"]                    move to workspace $workspace1
+assign [class="Firefox"]                        workspace $workspace1
 assign [class="Code"]                           workspace $workspace4
 assign [class="Texmaker"]                       workspace $workspace4
-assign [class="Thunderbird"]                workspace $workspace3
-assign [class="Spotify"]                    workspace $workspace3    
+assign [class="Thunderbird"]                    workspace $workspace3
+for_window [class="Spotify"]                    move to workspace $workspace3    
 assign [class="^.*"]                            workspace $workspace5
 for_window [class="^.*"]                        border pixel 0
 focus_follows_mouse no
@@ -180,10 +179,9 @@ focus_follows_mouse no
 gaps inner 15
 gaps outer 0
 floating_modifier $mod
+default_border                                  none
 
 ### STARTUP ###
-exec_always "setxkbmap -layout us,de"
-exec_always "setxkbmap -option 'grp:win_space_toggle'"
 exec_always ~/.config/screenlayout.sh
 
 exec_always feh --bg-fill ~/.config/wallpapers/$wallpaper
@@ -196,3 +194,6 @@ exec spotify
 exec polybar -r default
 
 exec --no-startup-id bash ~/.config/i3/ws2.sh
+
+exec_always "setxkbmap -layout us,de"
+exec_always "setxkbmap -option 'grp:win_space_toggle'"

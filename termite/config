@@ -1,7 +1,7 @@
 [options]
 audible_bell=false
 clickable_url=true
-cursor_blink=system
+cursor_blink=false
 cursor_shape=block
 dynamic_title=true
 mouse_autohide=true
@@ -15,9 +15,9 @@ browser=Firefox
 # Author: Wimer Hazenberg (http://www.monokai.nl)
 
 foreground          = #f8f8f2
-foreground_bold     = #f5f4f1
-cursor              = #f5f4f1
-cursor_foreground   = #272822
+foreground_bold     = #f8f8f2
+cursor              = #f8f8f2
+cursor_foreground   = #242b40
 background          = rgba(42, 50, 75, 0.8)
 
 # 16 color space
