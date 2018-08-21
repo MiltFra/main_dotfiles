@@ -30,7 +30,7 @@
                     "swallows": [
                        {
                        //"class": "^Termite$"
-                       "instance": "^terminal$"
+                       "instance": "^ranger$"
                        // "title": "^fish\\ \\ \\/home\\/vrelda$",
                        // "transient_for": "^$"
                        }
@@ -79,7 +79,7 @@
     "swallows": [
        {
        // "class": "^Termite$",
-       "instance": "^ranger$"
+       "instance": "^terminal$"
        //"title": "^ranger\\:\\~$"
        // "transient_for": "^$"
        }

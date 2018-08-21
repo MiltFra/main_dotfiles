@@ -1,61 +1,61 @@
 [options]
 audible_bell=false
 clickable_url=true
-cursor_blink=false
+cursor_blink=system
 cursor_shape=block
 dynamic_title=true
 mouse_autohide=true
 scrollback_lines=50000
 search_wrap=true
 visible_bell=false
-font=Input Mono 11
+font=Input Mono 12
 browser=Firefox
 [colors]
-# Base16 Monokai
-# Author: Wimer Hazenberg (http://www.monokai.nl)
+# Base16 Seti UI
+# Author: 
 
-foreground          = #f8f8f2
-foreground_bold     = #f8f8f2
-cursor              = #f8f8f2
-cursor_foreground   = #242b40
-background          = rgba(42, 50, 75, 0.8)
+foreground          = #d6d6d6
+foreground_bold     = #eeeeee
+cursor              = #eeeeee
+cursor_foreground   = #151718
+background          = rgba(21, 23, 24, 0.6)
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #242b40
-color8  = #6183b1
-color7  = #f8f8f2
-color15 = #f9f8f5
+color0  = #151718
+color8  = #41535B
+color7  = #d6d6d6
+color15 = #ffffff
 
 # Red
-color1  = #d65869
-color9  = #d65869
+color1  = #Cd3f45
+color9  = #Cd3f45
 
 # Green
-color2  = #13bb58
-color10 = #13bb58
+color2  = #9fca56
+color10 = #9fca56
 
 # Yellow
-color3  = #eba761
-color11 = #eba761
+color3  = #e6cd69
+color11 = #e6cd69
 
 # Blue
-color4  = #378ced
-color12 = #378ced
+color4  = #55b5db
+color12 = #55b5db
 
 # Purple
-color5  = #d37d79
-color13 = #d37d79
+color5  = #a074c4
+color13 = #a074c4
 
 # Teal
-color6  = #63d6ad
-color14 = #63d6ad
+color6  = #55dbbe
+color14 = #55dbbe
 
 # Extra colors
-color16 = #fd971f
-color17 = #d8985f
-color18 = #383830
-color19 = #49483e
-color20 = #a59f85
-color21 = #f5f4f1
+color16 = #db7b55
+color17 = #8a553f
+color18 = #282a2b
+color19 = #3B758C
+color20 = #43a5d5
+color21 = #eeeeee

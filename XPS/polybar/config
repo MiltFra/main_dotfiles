@@ -1,13 +1,52 @@
 [colors]
-color0 = #000000
-color1 = #282c34
-color2 = #c8ccd4
-color3 = #1E2127
-color4 = #e06c75
-color5 = #98c379
-color6 = #e5c07b
-color7 = #353b45
-color8 = #545862
+# Base16 Seti UI
+# Author: 
+
+foreground          = #d6d6d6
+foreground_bold     = #eeeeee
+cursor              = #eeeeee
+cursor_foreground   = #151718
+background          = #99161819
+
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #151718
+color8  = #41535B
+color7  = #d6d6d6
+color15 = #ffffff
+
+# Red
+color1  = #Cd3f45
+color9  = #Cd3f45
+
+# Green
+color2  = #9fca56
+color10 = #9fca56
+
+# Yellow
+color3  = #e6cd69
+color11 = #e6cd69
+
+# Blue
+color4  = #55b5db
+color12 = #55b5db
+
+# Purple
+color5  = #a074c4
+color13 = #a074c4
+
+# Teal
+color6  = #55dbbe
+color14 = #55dbbe
+
+# Extra colors
+color16 = #db7b55
+color17 = #8a553f
+color18 = #282a2b
+color19 = #3B758C
+color20 = #43a5d5
+color21 = #eeeeee
 
 [bar/default]
 width = 100%
@@ -20,7 +59,7 @@ bottom = false
 margin = 5
 #offset-y = 5%
 
-background = ${colors.color3}
+background = ${colors.background}
 foreground = ${colors.color2}
 
 line-size = 3
@@ -38,27 +77,17 @@ module-padding-left = 1
 module-padding-right = 1
 
 
-font-0 = Roboto-Mono:style=bold:pixelsize=12;2
+font-0 = Input Mono:style=Bold:pixelsize=12;3
 font-1 = Font Awesome 5 Free:pixelsize=12;3
 font-2 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-3 = Font Awesome 5 Brands:pixelsize=12;3
-font-4 = M+:pixelsize=13;3
-font-5 = Input Mono:size=19;6
 
-modules-left = i3 rectangle separator-left
-modules-center = xwindow 
-modules-right = separator-right xkeyboard battery date 
+modules-left = date xwindow 
+modules-center = i3 
+modules-right = xkeyboard wlan battery tray 
 
-tray-position = left
-tray-padding = 2
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+tray-position = center
+tray-padding = 1
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -66,107 +95,69 @@ cursor-scroll = ns-resize
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:50:...%
-label-padding = 2
-label-background = ${colors.color3}
+label-padding = 1
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-background = ${colors.color1}
-format-foreground = ${colors.color2}
+format-foreground = ${colors.color5}
 
-label-layout = %layout%
-label-layout-padding = 3
+label-layout =   %layout%
+label-layout-padding = 1
 
-[module/separator-left]
-type = custom/text
-content = ""
-content-foreground = ${colors.color1}
-content-background = ${colors.color3}
-
-[module/separator-right]
-type = custom/text
-content = ""
-content-foreground = ${colors.color1}
-content-background = ${colors.color3}
-
-[module/rectangle]
-type = custom/text
-content = " "
-content-background = ${colors.color1}
-content-padding = 10
 [module/i3]
 type = internal/i3
 
-format-background = ${colors.color1}
 pin-workspaces = false
 strip-wsnumbers = true
 index-sort = true
-enable-click = true
+enable-click = false
 enable-scroll = false
 wrapping-scroll = false
 reverse-scroll = false
 fuzzy-match = true
 
 ws-icon-0=1:web;
-ws-icon-1=2:terminal;
-ws-icon-2=3:code;
-ws-icon-3=4:tools;
+ws-icon-1=2:shell;
+ws-icon-2=3:tools;
+ws-icon-3=4:code;
 ws-icon-default=
 
 
 format-focused = <label-focused>
-label-focused = %icon%
-label-focused-padding = 2
+label-focused = %name%
+label-focused-padding = 1
 label-focused-margin = 0
-label-focused-foreground = ${colors.color8}
-label-focused-background = ${colors.color2}
-#label-focused-underline = ${colors.color1}
-#label-focused-overline = ${colors.color1}
+label-focused-foreground = ${colors.color1}
+label-focused-background = ${colors.background}
 
 format-unfocused = <label-unfocused>
-label-unfocused = %icon%
-label-unfocused-padding = 2
+label-unfocused = %name%
+label-unfocused-padding = 1
 label-unfocused-margin = 0
-label-unfocused-foreground = ${colors.color2}
-label-unfocused-background = ${colors.color1}
+label-unfocused-foreground = ${colors.foreground}
+label-unfocused-background = ${colors.background}
 
-label-mode-padding = 2
+label-mode-padding = 1
 label-mode-margin = 0
 label-mode-background = ${colors.color6}
 label-mode-foreground = ${colors.color1}
 label-mode = %mode%
 
 format-urgent = <label-urgent>
-label-urgent = %icon%
-label-urgent-padding = 2
+label-urgent = %name%
+label-urgent-padding = 1
 label-urgent-margin = 0
-label-urgent-foreground = ${colors.color2}
-label-urgent-background = ${colors.color4}
+label-urgent-foreground = ${colors.color3}
+label-urgent-background = ${colors.background}
 
 format-visible = <label-visible>
 label-visible = %icon%
-label-visible-padding = 2
+label-visible-padding = 1
 label-visible-margin = 0
-label-visible-foreground = ${colors.color2}
-label-visible-background = ${colors.color8}
-#label-visible-underline = ${colors.color1}
-#label-visible-overline = ${colors.color1}
-
-
-[module/mpd]
-type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
-
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-
-label-song-maxlen = 25
-label-song-ellipsis = true
+label-visible-foreground = ${colors.color16}
+label-visible-background = ${colors.background}
 
 [module/cpu]
 type = internal/cpu
@@ -187,128 +178,45 @@ format-underline = #a1efe4
 
 [module/wlan]
 type = internal/network
-interface = 
-interval = 3.0
+interface = wlp2s0
+interval = 1.0
+label-connected =  %essid%
+format-connected-padding = 1
 
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
-label-connected = %essid%
-
-format-disconnected = a
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.color2}
-
-[module/eth]
-type = internal/network
-interface = 
-interval = 3.0
-
-format-connected-underline = #55aa55
-format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.color2}
-label-connected = %local_ip%
-
-
+format-disconnected = 
+format-connected-foreground = ${colors.color6}
 
 [module/date]
 type = internal/date
 interval = 1
 
-date ="%m/%d"
-date-alt = "%Y-%m-%d"
+date =" %m/%d"
+date-alt = " %Y/%m/%d"
 
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-foreground = ${colors.color8}
-format-background = ${colors.color2}
+format-foreground = ${colors.color4}
 label = %date% %time%
-label-padding = 3
+label-padding = 1
 
 [module/battery]
 type = internal/battery
 battery = BAT0
 adapter = ACbatter
-full-at = 98
+full-at = 97
 
-label-charging = %percentage:3:50%%
-format-charging-foreground = ${colors.color1}
-format-charging-background = ${colors.color6}
+label-charging =  %percentage%% / %time%
+format-charging-foreground = ${colors.color3}
 format-charging-padding = 1
 
-label-discharging = %percentage:3:10%% 
+label-discharging =  %percentage%% / %time%
 format-discharging-foreground = ${colors.color1}
-format-discharging-background = ${colors.color4}
 label-discharging-padding = 1
 
-label-full = FULL
-format-full-foreground = ${colors.color1}
-format-full-background = ${colors.color5}
+label-full =  %percentage%%
+format-full-foreground = ${colors.color2}
 label-full-padding = 1
-
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.color2}
-animation-charging-framerate = 750
-
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = ${colors.color2}
-animation-discharging-framerate = 750
-
-[module/temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 60
-label-padding = 1
-
-format = temp <label>
-format-underline = #a6e22e
-format-foreground = #a6e22e
-format-warn = <label-warn>
-format-warn-underline = #aa0000
-format-warn-foreground = #aa0000
-
-label = %temperature-c%
-label-warn = %temperature-c%
-label-warn-foreground = ${colors.color4}
-label-warn-padding = 1
-
-[module/powermenu]
-type = custom/menu
-
-expand-right = true
-
-format-spacing = 1
-
-label-open = 
-label-open-foreground = ${colors.color2}
-label-close =  cancel
-label-close-foreground = ${colors.color2}
-label-separator = |
-label-separator-foreground = ${colors.color2}
-
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = power off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
