@@ -2,28 +2,51 @@
 # Base16 Seti UI
 # Author: 
 
-foreground          = ${xrdb:color7}
+foreground          = #d6d6d6
 foreground_bold     = #eeeeee
 cursor              = #eeeeee
 cursor_foreground   = #151718
-background          = #dd000000
+background          = #00161819
 
-color0 = #dd000000
-color1 = ${xrdb:color1}
-color2 = ${xrdb:color2}
-color3 = ${xrdb:color3}
-color4 = ${xrdb:color4}
-color5 = ${xrdb:color5}
-color6 = ${xrdb:color6}
-color7 = ${xrdb:color7}
-color8 = ${xrdb:color8}
-color9 = ${xrdb:color9}
-color10 = ${xrdb:color10}
-color11 = ${xrdb:color11}
-color12 = ${xrdb:color12}
-color13 = ${xrdb:color13}
-color14 = ${xrdb:color14}
-color15 = ${xrdb:color15}
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #151718
+color8  = #41535B
+color7  = #d6d6d6
+color15 = #ffffff
+
+# Red
+color1  = #Cd3f45
+color9  = #Cd3f45
+
+# Green
+color2  = #9fca56
+color10 = #9fca56
+
+# Yellow
+color3  = #e6cd69
+color11 = #e6cd69
+
+# Blue
+color4  = #55b5db
+color12 = #55b5db
+
+# Purple
+color5  = #a074c4
+color13 = #a074c4
+
+# Teal
+color6  = #55dbbe
+color14 = #55dbbe
+
+# Extra colors
+color16 = #db7b55
+color17 = #8a553f
+color18 = #282a2b
+color19 = #3B758C
+color20 = #43a5d5
+color21 = #eeeeee
 
 [bar/default]
 width = 100%
@@ -38,7 +61,7 @@ monitor = DVI-0
 #offset-y = 5%
 
 background = ${colors.background}
-foreground = ${colors.foreground}
+foreground = ${colors.color2}
 
 line-size = 3
 line-color = ${colors.color4}
@@ -74,13 +97,12 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = ${colors.color5}
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-foreground = ${colors.color6}
+format-foreground = ${colors.color5}
 
 label-layout =   %layout%
 label-layout-padding = 1
@@ -109,14 +131,14 @@ label-focused = %name%
 label-focused-padding = 1
 label-focused-margin = 0
 label-focused-foreground = ${colors.color1}
-label-focused-background = ${colors.color0}
+label-focused-background = ${colors.background}
 
 format-unfocused = <label-unfocused>
 label-unfocused = %name%
 label-unfocused-padding = 1
 label-unfocused-margin = 0
-label-unfocused-foreground = ${colors.color7}
-label-unfocused-background = ${colors.color0}
+label-unfocused-foreground = ${colors.foreground}
+label-unfocused-background = ${colors.background}
 
 label-mode-padding = 0
 label-mode-margin = 0
@@ -128,14 +150,31 @@ label-urgent = %name%
 label-urgent-padding = 1
 label-urgent-margin = 0
 label-urgent-foreground = ${colors.color3}
-label-urgent-background = ${colors.color0}
+label-urgent-background = ${colors.background}
 
 format-visible = <label-visible>
 label-visible = %name%
 label-visible-padding = 1
 label-visible-margin = 0
-label-visible-foreground = ${colors.color2}
-label-visible-background = ${colors.color0}
+label-visible-foreground = ${colors.color16}
+label-visible-background = ${colors.background}
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+label = cpu %percentage:2%%  
+label-padding-right = 1
+format-foreground = ${colors.color6}
+format-underline = ${colors.color6}
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix-foreground = ${colors.color2}
+label = mem %percentage_used%%
+label-padding-right = 1
+format-foreground = #a1efe4
+format-underline = #a1efe4
 
 [module/wlan]
 type = internal/network
@@ -145,8 +184,8 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = ${colors.color4}
-format-disconnected-foreground = ${colors.color5}
+format-connected-foreground = ${colors.color6}
+format-disconnected-foreground = ${colors.color19}
 format-disconnected-padding = 1
 
 [module/eth]
@@ -157,8 +196,8 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = ${colors.color2}
-format-disconnected-foreground = ${colors.color3}
+format-connected-foreground = ${colors.color16}
+format-disconnected-foreground = ${colors.color17}
 format-disconnected-padding = 1
 
 [module/date]
@@ -171,7 +210,7 @@ date-alt = " %Y/%m/%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-foreground = ${colors.color6}
+format-foreground = ${colors.color4}
 label = %date% %time%
 label-padding = 1
 
