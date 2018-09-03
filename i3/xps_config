@@ -180,6 +180,7 @@ exec spotify
 
 exec polybar -r default
 
-exec --no-startup-id bash ~/.config/i3/ws2.sh
-exec_always "setxkbmap -layout us,de"
-exec_always "setxkbmap -option 'grp:win_space_toggle'"
+
+### STARTUP ###
+exec_always bash ~/.config/i3/always.sh
+exec bash ~/.config/i3/startup.sh
