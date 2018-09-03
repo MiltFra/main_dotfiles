@@ -3,7 +3,6 @@ sudo rm
 reload
 cd 
 open_with 
-delete
 shell mkdir .source
 
 she
@@ -12,3 +11,4 @@ rename
 rename always.sh
 rename startup.sh
 rename startuplw.sh
+delete
