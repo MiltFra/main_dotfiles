@@ -60,9 +60,9 @@ font-1 = Font Awesome 5 Free:pixelsize=12;3
 font-2 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
 font-3 = Font Awesome 5 Brands:pixelsize=12;3
 
-modules-left = date xwindow 
+modules-left = battery eth wlan xkeyboard 
 modules-center = i3 
-modules-right = xkeyboard wlan eth battery
+modules-right = xwindow date
 
 tray-position = center
 tray-padding = 1
@@ -74,7 +74,7 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = ${colors.color4}
+format-foreground = ${colors.color3}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -157,8 +157,8 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = ${colors.color2}
-format-disconnected-foreground = ${colors.color3}
+format-connected-foreground = ${colors.color3}
+format-disconnected-foreground = ${colors.color4}
 format-disconnected-padding = 1
 
 [module/date]
@@ -171,7 +171,7 @@ date-alt = " %Y/%m/%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-foreground = ${colors.color3}
+format-foreground = ${colors.color2}
 label = %date% %time%
 label-padding = 1
 
