@@ -177,7 +177,7 @@ workspace $workspace9 output $rmonitor
 workspace $workspace10 output $rmonitor
 ### GAPS ###
 gaps inner 5
-gaps outer 0
+gaps outer 10
 floating_modifier $mod
 
 
