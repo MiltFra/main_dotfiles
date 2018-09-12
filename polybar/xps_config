@@ -73,6 +73,7 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
+format-foreground = ${colors.color4}
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -142,7 +143,7 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = ${colors.color6}
+format-connected-foreground = ${colors.color5}
 format-disconnected-foreground = ${colors.color6}
 format-disconnected-padding = 1
 
