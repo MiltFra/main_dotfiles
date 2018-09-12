@@ -1,0 +1,3 @@
+sudo pacman -S vim i3-gaps compton termite fish git xclip python3 python-pip htop ranger keepass w3m texlive-most yaourt make rofi feh autoconf wireless_tools arandr
+sudo pip3 install scipy pywal
+yaourt -S polybar woeusb
