@@ -153,22 +153,34 @@ mode $modepower {
         bindsym Return mode "default"
 }
 
-### WORKSPACE SETTINGS ###
-default_border                                  none
+default_border pixel 0
+hide_edge_borders none
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color1 #f0f0f0
+set_from_resource $b2 i3wm.color0
 
-assign [class="Firefox"]                    workspace $workspace1
-assign [class="Code"]                           workspace $workspace4
-assign [class="Texmaker"]                       workspace $workspace4
-assign [class="Thunderbird"]                    workspace $workspace3
-for_window [class="Spotify"]                    move to workspace $workspace3    
-assign [class="^.*"]                            workspace $workspace5
-for_window [class="^.*"]                        border pixel 0
-focus_follows_mouse no
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $b2     $b2     $fg  $bg       $b2
+client.unfocused        $b2     $b2     $fg  $bg       $b2
+client.urgent           $b2     $b2     $fg  $bg       $b2
+client.placeholder      $b2     $b2     $fg  $bg       $b2
+
+client.background       $b2
 
 ### GAPS ###
-gaps inner 15
+gaps inner 0
 gaps outer 0
 floating_modifier $mod
+
+### WORKSPACE SETTINGS ###
+for_window [class="Firefox"]                    	move to workspace $workspace1
+assign [class="Code"]                           workspace $workspace3
+assign [class="Thunderbird"]                    workspace $workspace4
+for_window [class="Spotify"]                    move to workspace $workspace4   
+assign [class="^.*"]                            workspace $workspace5
+for_window [class="Termite"]                        border pixel 2
+focus_follows_mouse no
 
 ### STARTUP ###
 exec_always bash ~/.config/i3/always.sh
