@@ -23,8 +23,8 @@ set $lmonitor DVI-0
 # Workspaces
 set $workspace1 "1:web"
 set $workspace2 "2:shell"
-set $workspace3 "3:tools"
-set $workspace4 "4:code"
+set $workspace3 "3:code"
+set $workspace4 "4:tools"
 set $workspace6 "6:other"
 set $workspace5 "5:other"
 set $workspace7 "7:other"

@@ -167,11 +167,11 @@ battery = BAT0
 adapter = ACbatter
 full-at = 97
 
-label-charging =  %percentage%% / %time%
+label-charging =  %percentage%%
 format-charging-foreground = ${colors.color3}
 format-charging-padding = 1
 
-label-discharging =  %percentage%% / %time%
+label-discharging =  %percentage%%
 format-discharging-foreground = ${colors.color1}
 label-discharging-padding = 1
 
