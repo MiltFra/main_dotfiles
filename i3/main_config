@@ -152,11 +152,10 @@ mode $modepower {
         bindsym Escape mode "default"
         bindsym Return mode "default"
 }
-default_border pixel 0
-hide_edge_borders none
+default_border pixel 2
 set_from_resource $fg i3wm.color7 #f0f0f0
 set_from_resource $bg i3wm.color1 #f0f0f0
-set_from_resource $b2 i3wm.color0
+set_from_resource $b2 i3wm.color0 #f0f0f0
 
 # class                 border  backgr. text indicator child_border
 client.focused          $bg     $bg     $fg  $bg       $bg
@@ -171,7 +170,7 @@ client.background       $b2
 gaps inner 0
 gaps outer 0
 floating_modifier $mod
-
+hide_edge_borders smart
 ### WORKSPACE SETTINGS ###
 
 for_window [class="Firefox"]                    move to workspace $workspace1
@@ -179,7 +178,7 @@ assign [class="Code"]                           workspace $workspace3
 assign [class="Thunderbird"]                    workspace $workspace4
 for_window [class="Spotify"]                    move to workspace $workspace4    
 assign [class="^.*"]                            workspace $workspace5
-for_window [class="Termite"]                    border pixel 2
+for_window [class="^.*"]                    border pixel 2
 focus_follows_mouse no
 ### ASSIGNS
 workspace $workspace1 output $lmonitor
@@ -194,5 +193,5 @@ workspace $workspace9 output $rmonitor
 workspace $workspace10 output $rmonitor
 
 ### STARTUP ###
-exec_always bash ~/.config/i3/always.sh
 exec bash ~/.config/i3/startup.sh
+exec_always bash ~/.config/i3/always.sh

@@ -11,4 +11,7 @@ rename
 rename always.sh
 rename startup.sh
 rename startuplw.sh
+mkdir  scans
+rename dell.pdf
 delete
+rename 2018-09-23-dell.pdf

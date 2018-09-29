@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
+wpg -s $(cat ~/.config/bg)
 ~/.config/screenlayout.sh 
-feh -bg-fill ~/dotfiles/wallpapers/bg.jpg &
 compton 
 setxkbmap -layout us,de
 setxkbmap -option 'grp:win_space_toggle' 
-wal -R
+killall polybar
+polybar default -r
+wpg -s $(cat ~/.config/bg)
+sleep 2
+wpg -s $(cat ~/.config/bg)
+sleep 20
+wpg -s $(cat ~/.config/bg)

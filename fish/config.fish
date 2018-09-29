@@ -1,1 +1,4 @@
-cat ~/.cache/wal/sequences &
+cat $HOME/.config/wpg/sequences &
+function fish_mode_prompt; end
+fish_vi_mode
+
