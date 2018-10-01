@@ -23,31 +23,31 @@ background          = rgba(21, 23, 24, 0.8)
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #2b090a
-color8  = #4c0f11
-color7  = #e1b3cb
-color15 = #ffe1ff
+color0  = #03091D
+color8  = #051342
+color7  = #d2c6a9
+color15 = #ffffde
 
 # Red
-color1  = #db242b
-color9  = #ff1e28
+color1  = #BB4B38
+color9  = #ff5638
 
 # Green
-color2  = #b65f5c
-color10 = #fe6a65
+color2  = #469661
+color10 = #4cd179
 
 # Yellow
-color3  = #e2957b
-color11 = #ffb689
+color3  = #9F6356
+color11 = #de765f
 
 # Blue
-color4  = #627fba
-color12 = #6c9eff
+color4  = #1D3153
+color12 = #1e3d73
 
 # Purple
-color5  = #dc6866
-color13 = #ff726f
+color5  = #5A5F60
+color13 = #698388
 
 # Teal
-color6  = #c23e4c
-color14 = #ff3f55
+color6  = #245563
+color14 = #257389

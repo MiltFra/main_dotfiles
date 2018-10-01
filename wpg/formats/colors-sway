@@ -1,0 +1,21 @@
+set $wallpaper vintage1.jpg
+
+set $background #03091D
+set $foreground #ffffde
+
+set $color0 #03091D
+set $color1 #BB4B38
+set $color2 #469661
+set $color3 #9F6356
+set $color4 #1D3153
+set $color5 #5A5F60
+set $color6 #245563
+set $color7 #d2c6a9
+set $color8 #051342
+set $color9 #ff5638
+set $color10 #4cd179
+set $color11 #de765f
+set $color12 #1e3d73
+set $color13 #698388
+set $color14 #257389
+set $color15 #ffffde

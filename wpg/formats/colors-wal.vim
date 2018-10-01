@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "vintage1.jpg"
+let background = "#03091D"
+let foreground = "#ffffde"
+let cursor     = "#ffffde"
+
+" Colors
+let color0  = "#03091D"
+let color1  = "#BB4B38"
+let color2  = "#469661"
+let color3  = "#9F6356"
+let color4  = "#1D3153"
+let color5  = "#5A5F60"
+let color6  = "#245563"
+let color7  = "#d2c6a9"
+let color8  = "#051342"
+let color9  = "#ff5638"
+let color10 = "#4cd179"
+let color11 = "#de765f"
+let color12 = "#1e3d73"
+let color13 = "#698388"
+let color14 = "#257389"
+let color15 = "#ffffde"
