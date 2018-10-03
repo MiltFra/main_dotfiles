@@ -70,7 +70,8 @@ bindsym $mod+f                                  fullscreen toggle
 bindsym $mod+m                                  split h 
 bindsym $mod+n                                  split v
 bindsym $mod+q                                  kill
-#bindsym $mod+r
+bindsym $mod+r                                  restart
+bindsym $mod+Shift+r                            reload
 bindsym $mod+s                                  move workspace to output right
 bindsym $mod+w                                  layout tabbed
 
@@ -144,7 +145,7 @@ assign [class="Code"]                           workspace $workspace3
 assign [class="Thunderbird"]                    workspace $workspace4
 for_window [class="Spotify"]                    move to workspace $workspace4    
 assign [class="^.*"]                            workspace $workspace5
-for_window [class="^.*"]                    border pixel 2
+for_window [class="^.*"]                        border pixel 2
 focus_follows_mouse no
 ### ASSIGNS
 workspace $workspace1 output $lmonitor

@@ -2,7 +2,6 @@ remove
 sudo rm 
 reload
 cd 
-open_with 
 shell mkdir .source
 she
 shell touch startup
@@ -12,7 +11,6 @@ rename startup.sh
 rename startuplw.sh
 mkdir  scans
 rename dell.pdf
-delete
 rename 2018-09-23-dell.pdf
 deleteeb
 shell eb
@@ -26,8 +24,6 @@ cd "Movies & Shows"
 rename movies_and_shows
 rename star_wars
 rename harry_potter
-shell 
-
 rename game_of_thrones
 rename westworld
 rename sherlock
@@ -35,3 +31,15 @@ rename the_hobbit
 rename the_lord_of_the_rings
 rename mcu
 rename house_of_cards
+open_with 
+rename 2018-10-03-id.pdf
+mkdir  IELTS
+
+shell 
+rename Downlod
+rename ielts
+rename pictures
+rename documents
+rename 2018-10-03-ielts
+rename 2018-10-03-dell
+delete

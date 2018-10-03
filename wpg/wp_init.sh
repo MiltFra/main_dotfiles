@@ -1,2 +1,2 @@
 #!/bin/bash
-wpg -rs vintage1.jpg vintage1.jpg
+wpg -rs up5.jpg up5.jpg

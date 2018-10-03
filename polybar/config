@@ -10,13 +10,13 @@ margin = 5
 monitor = HDMI-0
 offset-y = 5%
 
-background = #dd03091D
-foreground = #ffffde
+background = #dd12211c
+foreground = #f5ffe4
 
 line-size = 3
 
 border-size = 0
-border-color = #dd03091D
+border-color = #dd12211c
 
 padding-left = 0
 padding-right = 0
@@ -46,27 +46,27 @@ cursor-scroll = ns-resize
 type = custom/script
 exec = ~/.config/polybar/updates-arch.sh
 interval = 600
-format-foreground = #257389
+format-foreground = #9ca86c
 label-padding = 1
 
 [module/aur]
 type = custom/script
 exec = ~/.config/polybar/updates-arch-aur.sh
 interval = 600
-format-foreground = #245563
+format-foreground = #72775e
 label-padding = 1
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = #de765f
+format-foreground = #e09472
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-foreground = #5A5F60
+format-foreground = #7d7b56
 
 label-layout =   %layout%
 label-layout-padding = 1
@@ -94,30 +94,30 @@ format-focused = <label-focused>
 label-focused = %name%
 label-focused-padding = 1
 label-focused-margin = 0
-label-focused-foreground = #ffffde
+label-focused-foreground = #f5ffe4
 
 format-unfocused = <label-unfocused>
 label-unfocused = %name%
 label-unfocused-padding = 1
 label-unfocused-margin = 0
-label-unfocused-foreground = #469661
+label-unfocused-foreground = #56624d
 
 label-mode-padding = 0
 label-mode-margin = 0
-label-mode-foreground = #ffffde
+label-mode-foreground = #f5ffe4
 label-mode = %mode%
 
 format-urgent = <label-urgent>
 label-urgent = %name%
 label-urgent-padding = 1
 label-urgent-margin = 0
-label-urgent-foreground = #BB4B38
+label-urgent-foreground = #bc4032
 
 format-visible = <label-visible>
 label-visible = %name%
 label-visible-padding = 1
 label-visible-margin = 0
-label-visible-foreground = #d2c6a9
+label-visible-foreground = #baccad
 
 [module/wlan]
 type = internal/network
@@ -127,8 +127,8 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #1e3d73
-format-disconnected-foreground = #1D3153
+format-connected-foreground = #417e76
+format-disconnected-foreground = #3a5a56
 format-disconnected-padding = 1
 
 [module/eth]
@@ -139,14 +139,14 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #de765f
-format-disconnected-foreground = #9F6356
+format-connected-foreground = #e09472
+format-disconnected-foreground = #a07765
 format-disconnected-padding = 1
 
 [module/date]
 type = internal/date
 interval = 1
-format-foreground = #d2c6a9
+format-foreground = #baccad
 date =" %m/%d"
 date-alt = " %Y/%m/%d"
 
