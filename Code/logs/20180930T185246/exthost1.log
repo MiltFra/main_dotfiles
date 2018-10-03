@@ -1,0 +1,22 @@
+[2018-09-30 18:52:47.487] [exthost1] [info] extension host started
+[2018-09-30 18:52:47.502] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.502] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-30 18:52:47.509] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.509] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2018-09-30 18:52:47.535] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.535] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2018-09-30 18:52:47.653] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.653] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-30 18:52:47.662] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.662] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/search-rg/out/extension
+[2018-09-30 18:52:47.667] [exthost1] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.667] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/esbenp.prettier-vscode-1.6.1/out/src/extension
+[2018-09-30 18:52:47.784] [exthost1] [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.784] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/kruemelkatze.vscode-dashboard-1.1.0/out/dashboard
+[2018-09-30 18:52:47.789] [exthost1] [info] ExtensionService#_doActivateExtension PKief.material-icon-theme {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.789] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/pkief.material-icon-theme-3.6.0/out/src/extension
+[2018-09-30 18:52:47.820] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:47.820] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/vscodevim.vim-0.16.5/out/extension
+[2018-09-30 18:52:48.112] [exthost1] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2018-09-30 18:52:48.112] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/wakatime.vscode-wakatime-1.2.3/out/extension
+[2018-09-30 18:52:48.115] [exthost1] [info] eager extensions activated
