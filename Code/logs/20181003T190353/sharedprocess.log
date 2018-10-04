@@ -143,3 +143,136 @@
 [2018-10-03 19:27:05.527] [sharedprocess] [info] Scanned user extensions: 5
 [2018-10-03 19:32:05.554] [sharedprocess] [info] Scanned user extensions: 5
 [2018-10-03 19:37:05.582] [sharedprocess] [info] Scanned user extensions: 5
+[2018-10-03 19:42:05.609] [sharedprocess] [info] Scanned user extensions: 5
+[2018-10-03 19:42:16.570] [sharedprocess] [info] Scanned user extensions: 5
+[2018-10-03 19:42:16.608] [sharedprocess] [info] Scanned user extensions: 5
+[2018-10-03 19:42:16.627] [sharedprocess] [info] Scanned user extensions: 5
+[2018-10-03 19:42:16.628] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:42:16.629] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:42:16.631] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:42:16.645] [sharedprocess] [info] Scanned user extensions: 5
+[2018-10-03 19:42:21.171] [sharedprocess] [info] Installing extension: vscode-wakatime
+[2018-10-03 19:42:21.202] [sharedprocess] [info] Scanned user extensions: 5
+[2018-10-03 19:42:21.576] [sharedprocess] [info] Downloaded extension: vscode-wakatime /tmp/983d7d2b-361a-434d-856c-3d3c8a71c79b
+[2018-10-03 19:42:21.884] [sharedprocess] [info] Extracted extension to /home/vrelda/.vscode/extensions/.wakatime.vscode-wakatime-1.2.3: wakatime.vscode-wakatime-1.2.3
+[2018-10-03 19:42:21.884] [sharedprocess] [info] Renamed to /home/vrelda/.vscode/extensions/wakatime.vscode-wakatime-1.2.3
+[2018-10-03 19:42:21.884] [sharedprocess] [info] Installation completed. wakatime.vscode-wakatime-1.2.3
+[2018-10-03 19:42:21.897] [sharedprocess] [info] Extensions installed successfully: wakatime.vscode-wakatime
+[2018-10-03 19:42:22.021] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:42:22.031] [sharedprocess] [info] Scanned user extensions: 6
+[2018-10-03 19:42:24.887] [sharedprocess] [info] Scanned user extensions: 6
+[2018-10-03 19:42:24.890] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:42:24.891] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:42:24.891] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:42:24.903] [sharedprocess] [info] Scanned user extensions: 6
+[2018-10-03 19:42:24.924] [sharedprocess] [info] Scanned user extensions: 6
+[2018-10-03 19:42:56.096] [sharedprocess] [info] Installing extension: vscode-icons
+[2018-10-03 19:42:56.129] [sharedprocess] [info] Scanned user extensions: 6
+[2018-10-03 19:42:59.049] [sharedprocess] [info] Downloaded extension: vscode-icons /tmp/f39213a7-7400-42b9-b8d2-c0f24ff83de8
+[2018-10-03 19:42:59.821] [sharedprocess] [info] Extracted extension to /home/vrelda/.vscode/extensions/.robertohuertasm.vscode-icons-7.27.0: robertohuertasm.vscode-icons-7.27.0
+[2018-10-03 19:42:59.821] [sharedprocess] [info] Renamed to /home/vrelda/.vscode/extensions/robertohuertasm.vscode-icons-7.27.0
+[2018-10-03 19:42:59.821] [sharedprocess] [info] Installation completed. robertohuertasm.vscode-icons-7.27.0
+[2018-10-03 19:42:59.833] [sharedprocess] [info] Extensions installed successfully: robertohuertasm.vscode-icons
+[2018-10-03 19:42:59.960] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:42:59.971] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:43:02.123] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:43:02.129] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:43:02.142] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:43:02.157] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:43:02.215] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:43:02.236] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:43:02.237] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:43:02.240] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:43:02.242] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:43:02.255] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:43:05.199] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:08.143] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:08.155] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:46:08.155] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:46:08.170] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:08.190] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:10.929] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:41.141] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:41.160] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:41.164] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:46:41.166] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:46:41.166] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:46:41.179] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:41.199] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:43.947] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:56.835] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:58.815] [sharedprocess] [info] Installing extension: latex-workshop
+[2018-10-03 19:46:58.831] [sharedprocess] [info] Scanned user extensions: 7
+[2018-10-03 19:46:59.036] [sharedprocess] [info] Downloaded extension: latex-workshop /tmp/2e053e4e-95cf-423d-bc3d-7b7146bbb95a
+[2018-10-03 19:46:59.773] [sharedprocess] [info] Extracted extension to /home/vrelda/.vscode/extensions/.james-yu.latex-workshop-5.10.2: james-yu.latex-workshop-5.10.2
+[2018-10-03 19:46:59.773] [sharedprocess] [info] Renamed to /home/vrelda/.vscode/extensions/james-yu.latex-workshop-5.10.2
+[2018-10-03 19:46:59.773] [sharedprocess] [info] Installation completed. james-yu.latex-workshop-5.10.2
+[2018-10-03 19:46:59.789] [sharedprocess] [info] Extensions installed successfully: james-yu.latex-workshop
+[2018-10-03 19:46:59.918] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:46:59.929] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:47:02.081] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:02.082] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:47:02.095] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:02.111] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:02.210] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:02.236] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:02.244] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:47:02.246] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:47:02.248] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:47:02.254] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:05.174] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:38.865] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:38.876] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:47:38.876] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:47:38.883] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:38.903] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:47:41.939] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:04.281] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:04.286] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:48:04.301] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:07.340] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:22.010] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:22.023] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:48:22.023] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:48:22.029] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:22.044] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:25.123] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:33.711] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:33.717] [sharedprocess] [info] Scanned system extensions: 71
+[2018-10-03 19:48:33.731] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:48:36.776] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:53:36.801] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 19:58:36.897] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:03:36.926] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:08:37.088] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:13:37.109] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:18:37.128] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:23:37.160] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:28:37.185] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:33:37.213] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:38:37.246] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:43:37.274] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:48:37.298] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:53:37.328] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 20:58:37.368] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:03:37.393] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:08:37.562] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:13:37.580] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:18:37.605] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:23:37.630] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:28:37.651] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:33:37.685] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:38:37.713] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:43:37.741] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:48:37.765] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:53:37.804] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 21:58:37.829] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:03:37.853] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:08:38.021] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:13:38.055] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:18:38.082] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:23:38.120] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:28:38.155] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:33:38.196] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:38:38.219] [sharedprocess] [info] Scanned user extensions: 8
+[2018-10-03 22:43:38.244] [sharedprocess] [info] Scanned user extensions: 8

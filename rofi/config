@@ -3,10 +3,10 @@ rofi.width:                          50
 rofi.lines:                          8
 rofi.columns:                        2
 rofi.font:                           Input Mono 12
-rofi.color-normal:                   argb:0012211c, #f5ffe4, argb:0012211c, #bc4032, #f5ffe4
-rofi.color-urgent:                   #f5ffe4, #1f3b32, #baccad, #bc4032, #1f3b32
-rofi.color-active:                   #f5ffe4, #1f3b32, #baccad, #bc4032, #1f3b32
-rofi.color-window:                   argb:8812211c, argb:ffbc4032, #b0ac62
+rofi.color-normal:                   argb:000C0312, #e2fdff, argb:000C0312, #59586B, #e2fdff
+rofi.color-urgent:                   #e2fdff, #230735, #abbfc5, #59586B, #230735
+rofi.color-active:                   #e2fdff, #230735, #abbfc5, #59586B, #230735
+rofi.color-window:                   argb:aa0C0312, argb:ff59586B, #be84cd
 rofi.bw:                             10
 rofi.location:                       0
 rofi.padding:                        20
@@ -25,3 +25,4 @@ rofi.kb-mode-next:                   Shift+Right,Control+Tab,Alt+l
 rofi.kb-mode-previous:               Shift+Left,Control+Shift+Tab,Alt+h
 rofi.kb-row-up:                      Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab,Alt+k
 rofi.kb-row-down:                    Down,Control+n,Alt+j
+rofi.window

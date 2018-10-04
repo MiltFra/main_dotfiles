@@ -1,0 +1,24 @@
+[2018-10-04 20:10:49.843] [exthost1] [info] extension host started
+[2018-10-04 20:10:49.854] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:49.854] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-10-04 20:10:49.863] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:49.863] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2018-10-04 20:10:49.894] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:49.894] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2018-10-04 20:10:50.034] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:50.034] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/out/extension
+[2018-10-04 20:10:50.044] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:50.044] [exthost1] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/search-rg/out/extension
+[2018-10-04 20:10:50.049] [exthost1] [info] ExtensionService#_doActivateExtension kruemelkatze.vscode-dashboard {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:50.049] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/kruemelkatze.vscode-dashboard-1.1.0/out/dashboard
+[2018-10-04 20:10:50.054] [exthost1] [info] ExtensionService#_doActivateExtension remimarsal.prettier-now {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:50.054] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/remimarsal.prettier-now-1.4.9/out/src/extension
+[2018-10-04 20:10:50.110] [exthost1] [info] ExtensionService#_doActivateExtension robertohuertasm.vscode-icons {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:50.110] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/robertohuertasm.vscode-icons-7.27.0/out/src/
+[2018-10-04 20:10:50.203] [exthost1] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:50.203] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/vscodevim.vim-0.16.6/out/extension
+[2018-10-04 20:10:50.482] [exthost1] [info] ExtensionService#_doActivateExtension WakaTime.vscode-wakatime {"startup":true,"activationEvent":"*"}
+[2018-10-04 20:10:50.482] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/wakatime.vscode-wakatime-1.2.3/out/extension
+[2018-10-04 20:10:50.486] [exthost1] [info] eager extensions activated
+[2018-10-04 20:10:50.488] [exthost1] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop {"startup":false,"activationEvent":"onLanguage:latex"}
+[2018-10-04 20:10:50.488] [exthost1] [info] ExtensionService#loadCommonJSModule /home/vrelda/.vscode/extensions/james-yu.latex-workshop-5.10.2/out/src/main

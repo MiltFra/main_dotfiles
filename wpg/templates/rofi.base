@@ -6,7 +6,7 @@ rofi.font:                           Input Mono 12
 rofi.color-normal:                   argb:00<COLOR0>, #<COLOR15>, argb:00<COLOR0>, #<COLOR1>, #<COLOR15>
 rofi.color-urgent:                   #<COLOR15>, #<COLOR8>, #<COLOR7>, #<COLOR1>, #<COLOR8>
 rofi.color-active:                   #<COLOR15>, #<COLOR8>, #<COLOR7>, #<COLOR1>, #<COLOR8>
-rofi.color-window:                   argb:88<COLOR0>, argb:ff<COLOR1>, #<COLOR13>
+rofi.color-window:                   argb:aa<COLOR0>, argb:ff<COLOR1>, #<COLOR13>
 rofi.bw:                             10
 rofi.location:                       0
 rofi.padding:                        20
@@ -25,3 +25,4 @@ rofi.kb-mode-next:                   Shift+Right,Control+Tab,Alt+l
 rofi.kb-mode-previous:               Shift+Left,Control+Shift+Tab,Alt+h
 rofi.kb-row-up:                      Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab,Alt+k
 rofi.kb-row-down:                    Down,Control+n,Alt+j
+rofi.window

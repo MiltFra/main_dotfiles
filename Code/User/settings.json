@@ -1,7 +1,7 @@
 {
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Monokai Vibrant",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "vscode-icons",
     "material-icon-theme.showWelcomeMessage": false,
     "editor.fontFamily": "Input Mono",
     "editor.fontSize": 16,

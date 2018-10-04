@@ -1,2 +1,2 @@
 #!/bin/bash
-wpg -rs up5.jpg up5.jpg
+wpg -rs fnatic1.png fnatic1.png
