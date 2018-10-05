@@ -2,12 +2,12 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
-            "file:///home/vrelda/documents/study",
             "file:///home/vrelda/dotfiles",
+            "file:///home/vrelda/projects/bwinf37",
+            "file:///home/vrelda/documents/study",
             "file:///home/vrelda/projects/Seminararbeit",
             "file:///media/hdd1/documents/study",
             "file:///home/vrelda/.config",
-            "file:///home/vrelda/projects/bwinf37",
             "file:///home/vrelda/source/issy",
             "file:///home/vrelda/projects/rechnungen",
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
@@ -87,7 +87,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+Shift+W",
+            "label": "Ctrl+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -491,12 +491,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/vrelda/documents/study",
-                "external": "file:///home/vrelda/documents/study",
-                "path": "/home/vrelda/documents/study",
+                "fsPath": "/home/vrelda/projects/bwinf37",
+                "external": "file:///home/vrelda/projects/bwinf37",
+                "path": "/home/vrelda/projects/bwinf37",
                 "scheme": "file"
             },
-            "backupPath": "/home/vrelda/.config/Code/Backups/6b4b95cd5937fc3bb74e86fcd9285a57",
+            "backupPath": "/home/vrelda/.config/Code/Backups/c617db7a08545d660c033061322c40e6",
             "uiState": {
                 "mode": 1,
                 "x": 1920,

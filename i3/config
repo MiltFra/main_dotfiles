@@ -121,18 +121,22 @@ mode $modepower {
         bindsym Return mode "default"
 }
 default_border pixel 2
-set $fg #abbfc5 
-set $bg #59586B 
-set $b2 #0C0312
+set $c1 #b2bcbd
+set $c2 #ecf9fa 
+set $c3 #936E50
+set $c4 #cd8d59 
+set $c5 #1f1b1b
+set $c6 #649297
+set $c7 #0a0909
 
 # class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
-client.focused_inactive $b2     $b2     $fg  $bg       $b2
-client.unfocused        $b2     $b2     $fg  $bg       $b2
-client.urgent           $b2     $b2     $fg  $bg       $b2
-client.placeholder      $b2     $b2     $fg  $bg       $b2
+client.focused          $c4     $c4     $c7  $c4       $c4
+client.focused_inactive $c5     $c3     $c1  $c5       $c5
+client.unfocused        $c5     $c3     $c1  $c5       $c5
+client.urgent           $c6     $c6     $c5  $c6       $c6
+client.placeholder      $c5     $c5     $c1  $c5       $c5
 
-client.background       $b2
+client.background       $c5
 
 ### GAPS ###
 gaps inner 0
@@ -147,6 +151,7 @@ assign [class="Thunderbird"]                    workspace $workspace4
 for_window [class="Spotify"]                    move to workspace $workspace4    
 assign [class="^.*"]                            workspace $workspace5
 for_window [class="^.*"]                        border pixel 2
+for_window [class="^((?!Spotify).)*$"]			focus 
 focus_follows_mouse no
 ### ASSIGNS
 workspace $workspace1 output $lmonitor

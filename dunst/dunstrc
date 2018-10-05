@@ -12,7 +12,7 @@ word_wrap = yes
 ignore_newline = no
 stack_duplicates = yes
 hide_duplicates_count = yes
-geometry = "300x50+0+26"
+geometry = "500x50+0+26"
 shrink = yes
 transparency = 0
 idle_threshold = 0
@@ -42,18 +42,18 @@ history = ctrl+grave
 context = ctrl+shift+period
 
 [urgency_low]
-foreground = "#e2fdff"
+foreground = "#ecf9fa"
 timeout = 4
-background = "#0C0312"
+background = "#0a0909"
 
 [urgency_normal]
-foreground = "#e2fdff"
+foreground = "#ecf9fa"
 timeout = 6
-background = "#230735"
+background = "#1f1b1b"
 
 [urgency_critical]
-foreground = "#e2fdff"
-background = "#59586B"
+foreground = "#ecf9fa"
+background = "#936E50"
 timeout = 8
 
 

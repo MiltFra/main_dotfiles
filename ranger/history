@@ -1,8 +1,3 @@
-rename startuplw.sh
-mkdir  scans
-rename dell.pdf
-rename 2018-09-23-dell.pdf
-deleteeb
 shell eb
 cd /media/hdd2/Movies\ \&\Shows/Star\ Wars/
 cd media
@@ -35,7 +30,6 @@ shell
 search abst8
 mkdir  
 search vis
-rename 
 search mdir
 search 
 mkdir  colors
@@ -48,3 +42,9 @@ delete
 vim %
 shell vim %s
 search up
+rename 
+rename ielts_parental_consent.png
+rename sw9.jp
+rename sw9.jpg
+search sw9
+search sw9.jpg
