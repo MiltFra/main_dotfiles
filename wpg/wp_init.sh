@@ -1,2 +1,2 @@
 #!/bin/bash
-wpg -rs sw9.jpg sw9.jpg
+wpg -rs abst8.jpg abst8.jpg
