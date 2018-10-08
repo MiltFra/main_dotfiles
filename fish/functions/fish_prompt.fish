@@ -37,10 +37,11 @@ function fish_prompt
 
   # Add a newline before prompts
   echo -e ""
-  echo -n -s $cyan [ $purple $USER ': ' $normal
+  echo -n -s $cyan [ $purple $USER $normal
   # Display [venvname] if in a virtualenv
   if set -q VIRTUAL_ENV
-    echo -n -s (set_color -b cyan black) '[' (basename "$VIRTUAL_ENV") ']' $normal ' '
+    echo -n -s (set_color -b cyan black) '<' (basename "$VIRTUAL_ENV") '>' $normal ' 
+'
   end
 
   # Display [user & host] when on remote host
@@ -49,7 +50,7 @@ function fish_prompt
   end
 
   # Display the current directory name
-  echo -n -s $cwd $normal
+  # echo -n -s $cwd $normal
 
 
   # Show git branch and dirty state
