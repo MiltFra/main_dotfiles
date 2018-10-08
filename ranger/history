@@ -1,8 +1,3 @@
-cd hdd2/Movies\ \&\Shows
-cd hdd2
-cd "Movies & Shows"
-rename movies_and_shows
-rename star_wars
 rename harry_potter
 rename game_of_thrones
 rename westworld
@@ -27,13 +22,9 @@ search abst8
 mkdir  
 search vis
 search mdir
-search 
 mkdir  colors
 rename dotfiles_vis_custom.base.bak
 rename dotfiles_vis_custom.base
-open_with 
-open_with vim
-delete
 vim %
 shell vim %s
 search up
@@ -48,3 +39,12 @@ rename screenlayout.sh
 search lp4
 search fstab
 search sw9
+rename fish_prompt.fish2
+rename fish_prompt.fish.bak
+search 
+shell touch fish_prompt
+open_with 
+open_with vim
+delete
+rename fish_prompt.fish
+w
