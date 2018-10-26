@@ -1,5 +1,5 @@
 [global]
-font = Input Mono 12
+font = FiraCode 12
 markup = yes
 plain_text = no
 format = "<b>%s</b>\n%b"
@@ -42,18 +42,18 @@ history = ctrl+grave
 context = ctrl+shift+period
 
 [urgency_low]
-foreground = "#d8ffff"
+foreground = "#f5fffe"
 timeout = 4
-background = "#04142D"
+background = "#0d0f0f"
 
 [urgency_normal]
-foreground = "#d8ffff"
+foreground = "#f5fffe"
 timeout = 6
-background = "#062452"
+background = "#1f2424"
 
 [urgency_critical]
-foreground = "#d8ffff"
-background = "#5AA5B1"
+foreground = "#f5fffe"
+background = "#81817D"
 timeout = 8
 
 

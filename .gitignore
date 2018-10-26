@@ -2,3 +2,14 @@ Code/Cache/*
 Code/CachedData/*
 Code/user/workspaceStorage/*
 Code/logs/*
+wpg/.current
+wpg/templates/config_i3_config
+wpg/templates/config_termite_config
+wpg/templates/dotfiles_dunst_dunstrc
+wpg/templates/dotfiles_polybar_config
+wpg/templates/gtk2
+wpg/templates/gtk3.0
+wpg/templates/gtk3.20
+wpg/templates/rofi
+wpg/templates/vis_colors_custom
+wpg/wallpapers/*

@@ -1,5 +1,5 @@
 [global]
-font = Input Mono 12
+font = FiraCode 12
 markup = yes
 plain_text = no
 format = "<b>%s</b>\n%b"

@@ -2,10 +2,13 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
-            "file:///home/vrelda/projects/bwinf37",
             "file:///home/vrelda/projects/Seminararbeit",
-            "file:///home/vrelda/documents/study",
+            "file:///home/miltfra/projects/jannes_semi",
+            "file:///home/miltfra/projects/semi",
             "file:///home/vrelda/dotfiles",
+            "file:///home/vrelda/projects/bwinf37",
+            "file:///home/miltfra/documents",
+            "file:///home/vrelda/documents/study",
             "file:///media/hdd1/documents/study",
             "file:///home/vrelda/.config",
             "file:///home/vrelda/source/issy",
@@ -13,6 +16,9 @@
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [
+            "file:///home/miltfra/anaconda3/bin/conda-build",
+            "file:///home/miltfra/scikit-learn",
+            "file:///home/miltfra/install",
             "file:///usr/local/bin/polystart",
             "file:///home/vrelda/dotfiles/fish/functions/set_wpg.fish",
             "file:///home/vrelda/projects/smcalc/pwn_0_20.txt-bck/test",
@@ -20,7 +26,7 @@
         ]
     },
     "theme": "vs-dark",
-    "themeBackground": "#16171d",
+    "themeBackground": "#1a1d27",
     "lastKnownKeybindings": {
         "workbench.action.files.newUntitledFile": {
             "id": "workbench.action.files.newUntitledFile",
@@ -89,7 +95,7 @@
         },
         "workbench.action.closeWindow": {
             "id": "workbench.action.closeWindow",
-            "label": "Ctrl+Shift+W",
+            "label": "Ctrl+W",
             "isNative": true
         },
         "workbench.action.closeFolder": {
@@ -100,11 +106,6 @@
         "workbench.action.closeActiveEditor": {
             "id": "workbench.action.closeActiveEditor",
             "label": "Ctrl+W",
-            "isNative": true
-        },
-        "workbench.action.quit": {
-            "id": "workbench.action.quit",
-            "label": "Ctrl+Q",
             "isNative": true
         },
         "undo": {
@@ -284,7 +285,12 @@
         },
         "workbench.action.toggleSidebarVisibility": {
             "id": "workbench.action.toggleSidebarVisibility",
-            "label": "Ctrl+B",
+            "label": "Ctrl+Q",
+            "isNative": true
+        },
+        "workbench.action.toggleSidebarPosition": {
+            "id": "workbench.action.toggleSidebarPosition",
+            "label": "Ctrl+Shift+Q",
             "isNative": true
         },
         "workbench.action.togglePanel": {
@@ -493,12 +499,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/vrelda/projects/bwinf37",
-                "external": "file:///home/vrelda/projects/bwinf37",
-                "path": "/home/vrelda/projects/bwinf37",
+                "fsPath": "/home/vrelda/projects/Seminararbeit",
+                "external": "file:///home/vrelda/projects/Seminararbeit",
+                "path": "/home/vrelda/projects/Seminararbeit",
                 "scheme": "file"
             },
-            "backupPath": "/home/miltfra/.config/Code/Backups/c617db7a08545d660c033061322c40e6",
+            "backupPath": "/home/miltfra/.config/Code/Backups/fad20a7050911d3806214ba32b0b25c4",
             "uiState": {
                 "mode": 1,
                 "x": 1920,

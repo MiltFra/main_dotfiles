@@ -1,5 +1,3 @@
-rename harry_potter
-rename game_of_thrones
 rename westworld
 rename sherlock
 rename the_hobbit
@@ -48,3 +46,5 @@ open_with vim
 delete
 rename fish_prompt.fish
 w
+search sw10
+search npm

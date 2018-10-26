@@ -37,10 +37,10 @@ function fish_prompt
 
   # Add a newline before prompts
   echo -e ""
-  echo -n -s $cyan [  $USER $normal
+  echo -n -s $cyan [  $yellow $USER $normal
   # Display [venvname] if in a virtualenv
   if set -q VIRTUAL_ENV
-    echo -n -s (set_color -b cyan black) '<' (basename "$VIRTUAL_ENV") '>' $normal ' 
+    echo -n -s (set_color -b cyan black) '[' (basename "$VIRTUAL_ENV") ']' $normal ' 
 '
   end
 
@@ -55,14 +55,14 @@ function fish_prompt
 
   # Show git branch and dirty state
   if [ (_git_branch_name) ]
-    set -l git_branch '<' (_git_branch_name) '>'
+    set -l git_branch (_git_branch_name) 
 
     if [ (_is_git_dirty) ]
       set git_info $red $git_branch
     else
       set git_info $green $git_branch
     end
-    echo -n -s ' ' $git_info $normal
+    echo -n -s $cyan '@' $git_info $normal
   end
   echo -n -s $cyan ]
   # Terminate with a nice prompt char
