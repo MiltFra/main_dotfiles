@@ -18,7 +18,7 @@
                "y": 0
             },
             "name": "Ranger",
-            "percent": 0.5,
+            "percent": 0.8,
             "swallows": [
                {
                // "class": "^Termite$",
@@ -40,7 +40,7 @@
                "y": 0
             },
             "name": "HTop",
-            "percent": 0.5,
+            "percent": 0.2,
             "swallows": [
                {
                // "class": "^Termite$",

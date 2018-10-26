@@ -112,7 +112,7 @@ bindsym $mod+Tab exec rofi -show window -show-icons -drun-icon-theme Paper -auto
 bindsym $mod+Shift+Tab workspace next
 
 mode $modepower {
-        bindsym j mode "default",               exec --no-startup-id betterlockscreen -l dimblur 
+        bindsym j mode "default",               exec --no-startup-id i3exit lock
         bindsym k mode "default",               exit
         bindsym l mode "default",               exec --no-startup-id shutdown now
         bindsym semicolon mode "default",       exec --no-startup-id reboot

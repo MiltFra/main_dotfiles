@@ -3,6 +3,7 @@
     "openedPathsList": {
         "workspaces2": [
             "file:///home/vrelda/projects/Seminararbeit",
+            "file:///home/vrelda/projects/rechnungen",
             "file:///home/miltfra/projects/jannes_semi",
             "file:///home/miltfra/projects/semi",
             "file:///home/vrelda/dotfiles",
@@ -12,7 +13,6 @@
             "file:///media/hdd1/documents/study",
             "file:///home/vrelda/.config",
             "file:///home/vrelda/source/issy",
-            "file:///home/vrelda/projects/rechnungen",
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [

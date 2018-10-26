@@ -1,2 +1,2 @@
 #!/bin/bash
-wpg -nrs up1.jpg up1.jpg
+wpg -nrs clr2.jpg clr2.jpg
