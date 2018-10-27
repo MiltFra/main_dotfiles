@@ -62,5 +62,6 @@
     "workbench.sideBar.location": "left",
     "terminal.integrated.rendererType": "dom",
     "wal.autoReload": true,
-    "wal.tokenColorTheme": "lucy"
+    "wal.tokenColorTheme": "lucy",
+    "gitlens.keymap": "alternate"
 }

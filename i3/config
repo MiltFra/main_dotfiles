@@ -11,11 +11,15 @@ set $down j
 set $left h
 set $right l
 
-set $upp i
-set $downn u
-set $leftt y
-set $rightt o
-
+set $opt1 y
+set $opt2 u
+set $opt3 i
+set $opt4 o
+set $opt5 p
+set $opt6 7
+set $opt7 8
+set $opt8 9
+set $opt9 0
 #MONITORS
 set $rmonitor HDMI-0
 set $lmonitor DVI-0
@@ -38,27 +42,24 @@ set $modepower ""
 ## KEYBINDINGS
 
 # Numbers
-bindsym $mod+u                                  workspace $workspace1
-bindsym $mod+Shift+u                            move container to workspace $workspace1
-bindsym $mod+i                                  workspace $workspace2
-bindsym $mod+Shift+i                            move container to workspace $workspace2
-bindsym $mod+o                                  workspace $workspace3
-bindsym $mod+Shift+o                            move container to workspace $workspace3
-bindsym $mod+p                                  workspace $workspace4
-bindsym $mod+Shift+p                            move container to workspace $workspace4
-bindsym $mod+braceleft                          workspace $workspace5
-bindsym $mod+Shift+braceleft                    move container to workspace $workspace5
-bindsym $mod+7                                  workspace $workspace6
-bindsym $mod+Shift+7                            move container to workspace $workspace6
-bindsym $mod+8                                  workspace $workspace7
-bindsym $mod+Shift+8                            move container to workspace $workspace7
-bindsym $mod+9                                  workspace $workspace8
-bindsym $mod+Shift+9                            move container to workspace $workspace8
-bindsym $mod+0                                  workspace $workspace9
-bindsym $mod+Shift+0                            move container to workspace $workspace9
-bindsym $mod+minus                              workspace $workspace10
-bindsym $mod+Shift+minus                        move container to workspace $workspace10
-        
+bindsym $mod+$opt1                                  workspace $workspace1
+bindsym $mod+Shift+$opt1                            move container to workspace $workspace1
+bindsym $mod+$opt2                                  workspace $workspace2
+bindsym $mod+Shift+$opt2                            move container to workspace $workspace2
+bindsym $mod+$opt3                                  workspace $workspace3
+bindsym $mod+Shift+$opt3                            move container to workspace $workspace3
+bindsym $mod+$opt4                                  workspace $workspace4
+bindsym $mod+Shift+$opt4                            move container to workspace $workspace4
+bindsym $mod+$opt5                          workspace $workspace5
+bindsym $mod+Shift+$opt5                    move container to workspace $workspace5
+bindsym $mod+$opt6                                  workspace $workspace6
+bindsym $mod+Shift+$opt6                            move container to workspace $workspace6
+bindsym $mod+$opt7	                                  workspace $workspace7
+bindsym $mod+Shift+$opt7	                            move container to workspace $workspace7
+bindsym $mod+$opt8                                  workspace $workspace8
+bindsym $mod+Shift+$opt8                            move container to workspace $workspace8
+bindsym $mod+$opt9                                  workspace $workspace9
+bindsym $mod+Shift+$opt9                            move container to workspace $workspace9
 
 # Letters
 bindsym $mod+a                                  move workspace to output left
@@ -72,7 +73,6 @@ bindsym $mod+n                                  split v
 bindsym $mod+q                                  kill
 bindsym $mod+r                                  restart
 bindsym $mod+Shift+r                            reload
-bindsym $mod+s                                  move workspace to output right
 bindsym $mod+w                                  layout tabbed
 
 bindsym $mod+1                                  exec firefox; workspace $workspace1
@@ -94,7 +94,7 @@ bindsym $mod+Shift+$right                       move right
 bindsym $mod+space                              focus mode_toggle
 bindsym $mod+Shift+space                        floating toggle
 
-bindsym $mod+Escape                             mode $modepower
+bindsym $mod+Escape                             exec fish -c "notify-send 'Mode Changed' 'Power: lock | exit | shutdown | reboot'", mode $modepower
 
 bindsym XF86AudioRaiseVolume                    exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume                    exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
@@ -112,8 +112,9 @@ bindsym $mod+Tab exec rofi -show window -show-icons -drun-icon-theme Paper -auto
 bindsym $mod+Shift+Tab workspace next
 
 mode $modepower {
-        bindsym j mode "default",               exec --no-startup-id i3exit lock
-        bindsym k mode "default",               exit
+	
+        bindsym j mode "default",              exec --no-startup-id i3exit lock
+        bindsym k mode "default",              exit
         bindsym l mode "default",               exec --no-startup-id shutdown now
         bindsym semicolon mode "default",       exec --no-startup-id reboot
 
