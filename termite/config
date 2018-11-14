@@ -18,36 +18,36 @@ foreground          = #d6d6d6
 foreground_bold     = #eeeeee
 cursor              = #eeeeee
 cursor_foreground   = #151718
-background          = rgba(21, 23, 24, 0.3)
+background          = rgba(0, 0, 0, 0.7) 
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #10151e
-color8  = #1d2738
-color7  = #c7cac8
-color15 = #fdfffe
+color0  = #0d0f0f
+color8  = #1f2424
+color7  = #ccdbd3
+color15 = #f5fffe
 
 # Red
-color1  = #A68E68
-color9  = #e9bc75
+color1  = #81817D
+color9  = #b8b892
 
 # Green
-color2  = #758373
-color10 = #8cba85
+color2  = #5A8F76
+color10 = #65c99a
 
 # Yellow
-color3  = #C7AF52
-color11 = #ffee58
+color3  = #ABB5B1
+color11 = #c7ffea
 
 # Blue
-color4  = #4E738D
-color12 = #5797c5
+color4  = #71968B
+color12 = #81d4bb
 
 # Purple
-color5  = #D1A66A
-color13 = #ffdb75
+color5  = #90A29B
+color13 = #a7e6cd
 
 # Teal
-color6  = #6D8C9B
-color14 = #7cbbda
+color6  = #60C493
+color14 = #69ffbf

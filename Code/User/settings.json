@@ -42,12 +42,12 @@
             ]
         },
         {
-            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "name": "lua+bib",
             "tools": [
-                "pdflatex",
+                "lualatex",
                 "bibtex",
-                "pdflatex",
-                "pdflatex"
+                "lualatex",
+                "lualatex"
             ]
         }
     ],
@@ -63,5 +63,9 @@
     "terminal.integrated.rendererType": "dom",
     "wal.autoReload": true,
     "wal.tokenColorTheme": "lucy",
-    "gitlens.keymap": "alternate"
+    "gitlens.keymap": "alternate",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "latex-workshop.latex.autoBuild.onSave.enabled": false
 }

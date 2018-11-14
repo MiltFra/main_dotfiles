@@ -42,18 +42,18 @@ history = ctrl+grave
 context = ctrl+shift+period
 
 [urgency_low]
-foreground = "#fdfffe"
+foreground = "#f5fffe"
 timeout = 4
-background = "#10151e"
+background = "#0d0f0f"
 
 [urgency_normal]
-foreground = "#fdfffe"
+foreground = "#f5fffe"
 timeout = 6
-background = "#1d2738"
+background = "#1f2424"
 
 [urgency_critical]
-foreground = "#fdfffe"
-background = "#A68E68"
+foreground = "#f5fffe"
+background = "#81817D"
 timeout = 8
 
 

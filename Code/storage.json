@@ -2,13 +2,13 @@
     "telemetry.machineId": "7e7e30900b0dba6a5864663370066ccb2459feb84b8c8f83970d1a9d4e71981e",
     "openedPathsList": {
         "workspaces2": [
+            "file:///home/miltfra/documents",
             "file:///home/vrelda/projects/Seminararbeit",
             "file:///home/vrelda/projects/rechnungen",
             "file:///home/miltfra/projects/jannes_semi",
             "file:///home/miltfra/projects/semi",
             "file:///home/vrelda/dotfiles",
             "file:///home/vrelda/projects/bwinf37",
-            "file:///home/miltfra/documents",
             "file:///home/vrelda/documents/study",
             "file:///media/hdd1/documents/study",
             "file:///home/vrelda/.config",
@@ -16,6 +16,7 @@
             "file:///home/vrelda/projects/bwinf37/bwinf37-runde1"
         ],
         "files2": [
+            "file:///home/miltfra/passwords",
             "file:///home/miltfra/anaconda3/bin/conda-build",
             "file:///home/miltfra/scikit-learn",
             "file:///home/miltfra/install",
@@ -499,12 +500,12 @@
         "lastActiveWindow": {
             "folderUri": {
                 "$mid": 1,
-                "fsPath": "/home/vrelda/projects/Seminararbeit",
-                "external": "file:///home/vrelda/projects/Seminararbeit",
-                "path": "/home/vrelda/projects/Seminararbeit",
+                "fsPath": "/home/miltfra/documents",
+                "external": "file:///home/miltfra/documents",
+                "path": "/home/miltfra/documents",
                 "scheme": "file"
             },
-            "backupPath": "/home/miltfra/.config/Code/Backups/fad20a7050911d3806214ba32b0b25c4",
+            "backupPath": "/home/miltfra/.config/Code/Backups/61943b5a098c224e2b464d34e598373d",
             "uiState": {
                 "mode": 1,
                 "x": 1920,

@@ -1,4 +1,3 @@
-rename westworld
 rename sherlock
 rename the_hobbit
 rename the_lord_of_the_rings
@@ -25,7 +24,6 @@ rename dotfiles_vis_custom.base.bak
 rename dotfiles_vis_custom.base
 vim %
 shell vim %s
-search up
 rename 
 rename ielts_parental_consent.png
 rename sw9.jp
@@ -43,8 +41,10 @@ search
 shell touch fish_prompt
 open_with 
 open_with vim
-delete
 rename fish_prompt.fish
 w
 search sw10
 search npm
+delete
+find 
+search up
