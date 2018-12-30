@@ -2,7 +2,7 @@
 width = 100%
 offset-x = 5%
 override-redirect = false
-height = 26
+height = 32
 radius = 0
 fixed-center = true
 bottom = false
@@ -10,7 +10,7 @@ margin = 5
 monitor = HDMI-0
 offset-y = 5%
 
-background = #dd<COLOR0>
+background = #00<COLOR0>
 foreground = #<COLOR15>
 
 line-size = 3
@@ -27,14 +27,14 @@ module-padding-left = 1
 module-padding-right = 1
 
 
-font-0 = Input Mono:style=Bold:pixelsize=12;2
-font-1 = Font Awesome 5 Free:pixelsize=12;3
-font-2 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
-font-3 = Font Awesome 5 Brands:pixelsize=12;3
+font-0 = Input Mono:style=Bold:pixelsize=13;2
+font-1 = Font Awesome 5 Free:pixelsize=13;3
+font-2 = Font Awesome 5 Free:style=Solid:pixelsize=13;3
+font-3 = Font Awesome 5 Brands:pixelsize=13;3
 
-modules-left = date xwindow 
+modules-left = date pacman aur
 modules-center = i3 
-modules-right = xkeyboard pacman aur wlan eth
+modules-right = xkeyboard wlan eth
 
 tray-position =
 tray-padding = 1
@@ -117,7 +117,7 @@ format-visible = <label-visible>
 label-visible = %name%
 label-visible-padding = 1
 label-visible-margin = 0
-label-visible-foreground = #<COLOR7>
+label-visible-foreground = #<COLOR3>
 
 [module/wlan]
 type = internal/network

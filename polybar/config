@@ -2,7 +2,7 @@
 width = 100%
 offset-x = 5%
 override-redirect = false
-height = 26
+height = 32
 radius = 0
 fixed-center = true
 bottom = false
@@ -10,13 +10,13 @@ margin = 5
 monitor = HDMI-0
 offset-y = 5%
 
-background = #dd0d0f0f
-foreground = #f5fffe
+background = #001a1d27
+foreground = #ffffff
 
 line-size = 3
 
 border-size = 0
-border-color = #dd0d0f0f
+border-color = #dd1a1d27
 
 padding-left = 0
 padding-right = 0
@@ -27,14 +27,14 @@ module-padding-left = 1
 module-padding-right = 1
 
 
-font-0 = Input Mono:style=Bold:pixelsize=12;2
-font-1 = Font Awesome 5 Free:pixelsize=12;3
-font-2 = Font Awesome 5 Free:style=Solid:pixelsize=12;3
-font-3 = Font Awesome 5 Brands:pixelsize=12;3
+font-0 = Input Mono:style=Bold:pixelsize=13;2
+font-1 = Font Awesome 5 Free:pixelsize=13;3
+font-2 = Font Awesome 5 Free:style=Solid:pixelsize=13;3
+font-3 = Font Awesome 5 Brands:pixelsize=13;3
 
-modules-left = date xwindow 
+modules-left = date pacman aur
 modules-center = i3 
-modules-right = xkeyboard pacman aur wlan eth
+modules-right = xkeyboard wlan eth
 
 tray-position =
 tray-padding = 1
@@ -46,27 +46,27 @@ cursor-scroll = ns-resize
 type = custom/script
 exec = ~/.config/polybar/updates-arch.sh
 interval = 600
-format-foreground = #69ffbf
+format-foreground = #fdad5d
 label-padding = 1
 
 [module/aur]
 type = custom/script
 exec = ~/.config/polybar/updates-arch-aur.sh
 interval = 600
-format-foreground = #60C493
+format-foreground = #fdad5d
 label-padding = 1
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:50:...%
 label-padding = 1
-format-foreground = #c7ffea
+format-foreground = #e8d56d
 
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-foreground = #90A29B
+format-foreground = #af98e6
 
 label-layout =   %layout%
 label-layout-padding = 1
@@ -94,30 +94,30 @@ format-focused = <label-focused>
 label-focused = %name%
 label-focused-padding = 1
 label-focused-margin = 0
-label-focused-foreground = #f5fffe
+label-focused-foreground = #ffffff
 
 format-unfocused = <label-unfocused>
 label-unfocused = %name%
 label-unfocused-padding = 1
 label-unfocused-margin = 0
-label-unfocused-foreground = #5A8F76
+label-unfocused-foreground = #76c5a4
 
 label-mode-padding = 0
 label-mode-margin = 0
-label-mode-foreground = #f5fffe
+label-mode-foreground = #ffffff
 label-mode = %mode%
 
 format-urgent = <label-urgent>
 label-urgent = %name%
 label-urgent-padding = 1
 label-urgent-margin = 0
-label-urgent-foreground = #81817D
+label-urgent-foreground = #fb7da7
 
 format-visible = <label-visible>
 label-visible = %name%
 label-visible-padding = 1
 label-visible-margin = 0
-label-visible-foreground = #ccdbd3
+label-visible-foreground = #e8d56d
 
 [module/wlan]
 type = internal/network
@@ -127,8 +127,8 @@ label-connected =  %essid% %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #81d4bb
-format-disconnected-foreground = #71968B
+format-connected-foreground = #56c9db
+format-disconnected-foreground = #56c9db
 format-disconnected-padding = 1
 
 [module/eth]
@@ -139,14 +139,14 @@ label-connected =  %local_ip%
 format-connected-padding = 1
 
 format-disconnected =  --
-format-connected-foreground = #c7ffea
-format-disconnected-foreground = #ABB5B1
+format-connected-foreground = #e8d56d
+format-disconnected-foreground = #e8d56d
 format-disconnected-padding = 1
 
 [module/date]
 type = internal/date
 interval = 1
-format-foreground = #ccdbd3
+format-foreground = #ffffff
 date =" %m/%d"
 date-alt = " %Y/%m/%d"
 

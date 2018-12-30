@@ -1,6 +1,3 @@
-rename sherlock
-rename the_hobbit
-rename the_lord_of_the_rings
 rename mcu
 rename house_of_cards
 rename 2018-10-03-id.pdf
@@ -48,3 +45,6 @@ search npm
 delete
 find 
 search up
+search lucy
+search the
+mkdir  blog

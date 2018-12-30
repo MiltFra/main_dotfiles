@@ -2,7 +2,7 @@ font pango:Input Mono 11
 ### VARIABLES ###
 # Mod Key
 set $mod Mod4
-set $terminal termite 
+set $terminal urxvt 
 set $wallpaper bg.jpg
 
 # VIM directions
@@ -28,13 +28,12 @@ set $lmonitor DVI-0
 set $workspace1 "1:web"
 set $workspace2 "2:shell"
 set $workspace3 "3:code"
-set $workspace4 "4:tools"
-set $workspace6 "6:other"
-set $workspace5 "5:other"
-set $workspace7 "7:other"
-set $workspace8 "8:other"
+set $workspace4 "4:other"
+set $workspace5 "5:chat"
+set $workspace6 "6:music"
+set $workspace7 "7:mail"
+set $workspace8 "8:libre"
 set $workspace9 "9:other"
-set $workspace10 "10:other"
 
 # Modes
 set $modepower ""
@@ -78,6 +77,7 @@ bindsym $mod+w                                  layout tabbed
 bindsym $mod+1                                  exec firefox; workspace $workspace1
 bindsym $mod+2                                  exec fish -c polystart
 bindsym $mod+3					exec shell /home/vrelda/.config/wpg/wp_init.sh
+bindsym $mod+4					exec fish -c "set_wpg up14.jpg"
 
 # Other
 bindsym $mod+Return                             exec $terminal
@@ -93,6 +93,7 @@ bindsym $mod+Shift+$right                       move right
 
 bindsym $mod+space                              focus mode_toggle
 bindsym $mod+Shift+space                        floating toggle
+bindsym Mod1+Shift+Enter			exec termite
 
 bindsym $mod+Escape                             exec fish -c "notify-send 'Mode Changed' 'Power: lock | exit | shutdown | reboot'", mode $modepower
 
@@ -113,22 +114,22 @@ bindsym $mod+Shift+Tab workspace next
 
 mode $modepower {
 	
-        bindsym j mode "default",              exec --no-startup-id i3exit lock
-        bindsym k mode "default",              exit
-        bindsym l mode "default",               exec --no-startup-id shutdown now
-        bindsym semicolon mode "default",       exec --no-startup-id reboot
+        bindsym h mode "default",              exec --no-startup-id i3exit lock
+        bindsym j mode "default",              exit
+        bindsym k mode "default",               exec --no-startup-id shutdown now
+        bindsym l mode "default",       exec --no-startup-id reboot
 
         bindsym Escape mode "default"
         bindsym Return mode "default"
 }
 default_border pixel 2
-set $c1 #ccdbd3
-set $c2 #f5fffe 
-set $c3 #81817D
-set $c4 #b8b892 
-set $c5 #1f2424
-set $c6 #65c99a
-set $c7 #0d0f0f
+set $c1 #ffffff
+set $c2 #ffffff 
+set $c3 #56c9db
+set $c4 #56c9db 
+set $c5 #292e3f
+set $c6 #76c5a4
+set $c7 #1a1d27
 
 # class                 border  backgr. text indicator child_border
 client.focused          $c4     $c4     $c7  $c4       $c4
@@ -148,23 +149,26 @@ hide_edge_borders smart
 
 for_window [class="Firefox"]                    move to workspace $workspace1
 assign [class="Code"]                           workspace $workspace3
-assign [class="Thunderbird"]                    workspace $workspace4
-for_window [class="Spotify"]                    move to workspace $workspace4    
-assign [class="^.*"]                            workspace $workspace5
+assign [class="Thunderbird"]                    workspace $workspace7
+for_window [class="Spotify"]                    move to workspace $workspace6 
+assign [class="libreoffice"] 		workspace $workspace8
+assign [class="libreoffice-writer"]		workspace $workspace8
+assign [class="TelegramDesktop"] 		workspace $workspace5
+assign [class="discord"]			workspace $workspace5
+assign [class="^.*"]                            workspace $workspace4
 for_window [class="^.*"]                        border pixel 2
 for_window [class="^((?!Spotify).)*$"]		focus 
 focus_follows_mouse no
 ### ASSIGNS
-workspace $workspace1 output $lmonitor
+workspace $workspace1 output $rmonitor
 workspace $workspace2 output $rmonitor
 workspace $workspace3 output $rmonitor
-workspace $workspace4 output $lmonitor
-workspace $workspace5 output $rmonitor
+workspace $workspace4 output $rmonitor
+workspace $workspace5 output $lmonitor
 workspace $workspace6 output $rmonitor
 workspace $workspace7 output $rmonitor
 workspace $workspace8 output $rmonitor
 workspace $workspace9 output $rmonitor
-workspace $workspace10 output $rmonitor
 
 ### STARTUP ###
 exec bash ~/.config/i3/startup.sh

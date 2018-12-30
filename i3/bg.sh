@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-nitrogen --set-tiled ~/.wallpapers/transparent.png --set-color=#ccdbd3
+nitrogen --set-tiled ~/.wallpapers/transparent.png --set-color=#1a1d27

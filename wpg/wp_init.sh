@@ -1,2 +1,2 @@
-#!/bin/bash
-wpg -nrs up1.jpg up1.jpg
+#!/usr/bin/env bash
+wpg -nrs theme_lucy.jpg theme_lucy.jpg
