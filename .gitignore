@@ -1,6 +1,6 @@
-Code/Cache/*
-Code/CachedData/*
-Code/user/workspaceStorage/*
+.gitignore
+Code/Cache*
+Code/User/workspaceStorage/
 Code/logs/*
 wpg/.current
 wpg/templates/config_i3_config
@@ -12,4 +12,4 @@ wpg/templates/gtk3.0
 wpg/templates/gtk3.20
 wpg/templates/rofi
 wpg/templates/vis_colors_custom
-wpg/wallpapers/*
+wpg/wallpapers/
